@@ -1,0 +1,28 @@
+@media  (max-width: 1024px) {
+    div.sub-navbar{
+        display: none;
+    }
+
+    div.navbar{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    div.navbar .nav-items{
+        display: none;
+    }
+
+    div.join-now{
+        display: none;
+    }
+
+    .navbar .logo-text{
+        font-size: 0.85em;
+    }
+
+    .hambuger-mnu-wrapper{
+        display: block;
+    }
+
+      
+}
