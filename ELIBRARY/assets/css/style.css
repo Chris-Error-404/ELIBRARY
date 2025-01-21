@@ -377,6 +377,14 @@ footer{
   font-size: 0.9em;
 }
 
+.footer-container .get-in-touch .social-links{
+  display: flex;
+}
+
+.footer-container .get-in-touch .social-links i{
+  font-size: 1.5em;
+}
+
 .footer-container .our-courses ul{
   display: flex;
   flex-direction: column;
@@ -457,13 +465,20 @@ footer{
 
 .footer-navbar a:hover{
   color: var(--color-orange);
-  text-decoration: underline;
 }
 
 .footer-navbar .copyright{
   display: flex;
   gap: 0.5em;
   font-size: 0.8em;
+}
+
+.footer-navbar .copyright i{
+  margin-right: 0.5em;
+}
+
+.footer-navbar .copyright a:hover{
+  text-decoration: underline;
 }
 
 .footer-navbar-items ul{
