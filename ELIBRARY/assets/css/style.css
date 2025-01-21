@@ -1,42 +1,43 @@
+/* import font(s) */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/* reset */
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
+/* root variables */
 :root{
-    --color-white: #fff;
-    --color-black: #191a23;
-    --color-light-grey: #6C6A74;
-    --color-orange: #FF6600;
-    --color-dark-orange: #e25c03;
+  --color-white: #fff;
+  --color-black: #191a23;
+  --color-light-grey: #6C6A74;
+  --color-orange: #FF6600;
+  --color-dark-orange: #e25c03;
 }
 
 a{
-    text-decoration: none;
-    cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 ul,ol,li{
     list-style-type: none;
 }
-/* 
-i{
-  margin-left: 0.5em;
-}
- */
+
+
 /* utilities */
-.btn{
+
+.btn{  /* can't be used for footer newslwtter sign up button */
   background-color: var(--color-orange);
+  color: var(--color-white);
   border: none;
   border-radius: 5px;
   vertical-align: middle;
-  color: var(--color-white);
   padding-top: 0.9em;
   padding-bottom: 0.9em;
   padding-left: 1.5em;
@@ -45,14 +46,13 @@ i{
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
-
 }
 
 .btn:hover{
   background-color: var(--color-dark-orange);
 }
 
-.heading{
+.heading{ 
   font-size: 1.25em;
   color: var(--color-orange);
   letter-spacing: 0.25em;
@@ -62,17 +62,17 @@ i{
   font-size: 2.5em;
   font-weight: 800;
 }
-
 /* end utilities */
 
+
 body{
-  margin: 0;
-    font-family: 'Poppins', sans-serif;
-    color: var(--color-black);
-    background-color: var(--color-white);
-    transition: all 0.5s ease;
-    line-height: 1.5em;
-    color: var(--color-black);
+  font-family: 'Poppins', sans-serif;
+  color: var(--color-black);
+  background-color: var(--color-white);
+  color: var(--color-black);
+  line-height: 1.5em;
+  transition: all 0.5s ease;
+
 }
 
 
@@ -84,7 +84,6 @@ div.sub-navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    line-height: 1.5em;
 }
 
 .sub-navbar h4{
@@ -105,13 +104,13 @@ div.sub-navbar{
 }
 
 div.navbar{
-    border-top: 1px solid var(--color-light-grey);
-    padding: 1.5em;
-    padding-left: 2em;
-    padding-right: 2em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  border-top: 1px solid var(--color-light-grey);
+  padding: 1.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .hambuger-mnu-wrapper{
