@@ -418,5 +418,8 @@ footer{
   background-color: var(--color-dark-orange);
 }
 
+.footer-container .newsletter i{
+  margin-right: 0.6em;
+}
 
 
