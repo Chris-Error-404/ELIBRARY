@@ -97,6 +97,10 @@ div.sub-navbar{
     display: inline;
     margin-right: 0.2em; /* to space text */
 }
+.sub-navbar i{
+  margin-right: 0.5em;
+  color: var(--color-orange);
+}
 
 .sub-navbar a{
     color: var(--color-light-grey);
