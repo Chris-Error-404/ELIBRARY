@@ -337,4 +337,44 @@ a i {
 
 /* end hero */
 
+/* footer*/
+footer{
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.footer-container{
+  padding: 2em;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: start;
+}
+
+.footer-container a{
+  color: var(--color-white);
+}
+
+.footer-container h3{
+  margin-bottom: 1em;
+}
+
+.footer-container .get-in-touch ul{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.footer-container .get-in-touch i{
+  margin-right: 0.5em;
+}
+
+.footer-container .our-courses ul{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+
 
