@@ -383,29 +383,27 @@ footer{
 }
 
 .footer-container .newsletter p{
-  margin-bottom: 1em;
+  margin-bottom: 1.2em;
 }
 
 .footer-container .newsletter input,button{
   vertical-align: middle;
   padding: 1.5em;
+  border: none;
   border-radius: 8px
-
 }
 
 .footer-container .newsletter input{
   border-top-right-radius: 0px;
-  border-bottom-right-radius: 0;
-  border: 1px solid var(--color-black);
-  border-right: 1px solid var(--color-white);
+  border-bottom-right-radius: 0px;
 }
 
 .footer-container .newsletter input::placeholder{
   font-size: 1.1em;
 }
 
-.footer-container .newsletter input:focus{
-  border: 0px ;
+.footer-container input:focus{
+  border: none;
 }
 
 .footer-container .newsletter button{
@@ -413,7 +411,6 @@ footer{
   border-bottom-left-radius: 0;
   background-color: var(--color-orange);
   color: var(--color-white);
-  border: none;
   transition: all 0.3s ease ;
 }
 
