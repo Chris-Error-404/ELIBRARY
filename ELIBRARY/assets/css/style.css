@@ -338,6 +338,7 @@ a i {
 /* end hero */
 
 /* footer*/
+/* footer container */
 footer{
   background-color: var(--color-black);
   color: var(--color-white);
@@ -386,7 +387,14 @@ footer{
   margin-bottom: 1.2em;
 }
 
-.footer-container .newsletter input,button{
+.footer-container .newsletter input{
+  vertical-align: middle;
+  padding: 1.5em;
+  border: none;
+  border-radius: 8px
+}
+
+.footer-container .newsletter button{
   vertical-align: middle;
   padding: 1.5em;
   border: none;
@@ -422,6 +430,49 @@ footer{
 .footer-container .newsletter i{
   margin-right: 0.6em;
 }
+
+
+/* end footer container */
+
+
+/* footer navbar */
+.footer-navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--color-light-grey);
+  padding: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.footer-navbar span{
+  color: var(--color-orange);
+}
+
+.footer-navbar a{
+  color: var(--color-white);
+  transition: all 0.3s ease;
+}
+
+.footer-navbar a:hover{
+  color: var(--color-orange);
+  text-decoration: underline;
+}
+
+.footer-navbar .copyright{
+  display: flex;
+  gap: 0.5em;
+  font-size: 0.8em;
+}
+
+.footer-navbar-items ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+/* end footer navbar */
 
 
 
