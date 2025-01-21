@@ -354,6 +354,11 @@ footer{
 
 .footer-container a{
   color: var(--color-white);
+  transition: all 0.3s ease;
+}
+
+.footer-container a:hover{
+  color: var(--color-orange);
 }
 
 .footer-container h3{
@@ -368,12 +373,17 @@ footer{
 
 .footer-container .get-in-touch i{
   margin-right: 0.5em;
+  font-size: 0.9em;
 }
 
 .footer-container .our-courses ul{
   display: flex;
   flex-direction: column;
   gap: 0.5em;
+}
+
+.footer-container .newsletter p{
+  margin-bottom: 1em;
 }
 
 
