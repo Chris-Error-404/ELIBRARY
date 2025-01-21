@@ -397,15 +397,20 @@ footer{
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0;
   border: 1px solid var(--color-black);
+  border-right: 1px solid var(--color-white);
+  border: none;
 }
 
 .footer-container .newsletter input::placeholder{
-  
+  font-size: 1.1em;
 }
 
 .footer-container .newsletter button{
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0;
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  border: none;
 }
 
 
