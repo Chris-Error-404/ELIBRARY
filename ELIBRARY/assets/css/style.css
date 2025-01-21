@@ -31,6 +31,9 @@ ul,ol,li{
 
 
 /* utilities */
+.navbar nav ul a.active{/* special utility to show orange on the section the user is on (home, teacher etc) */
+  color: var(--color-orange);
+}
 
 .btn{  /* can't be used for footer newslwtter sign up button */
   background-color: var(--color-orange);
@@ -76,7 +79,9 @@ body{
 }
 
 
-/* navbar */
+/* header*/
+
+/* sub-navbar */
 div.sub-navbar{
     padding: 1em;
     padding-left: 2em;
@@ -90,7 +95,7 @@ div.sub-navbar{
     color: var(--color-black);
     font-size: 0.9;
     display: inline;
-    margin-right: 0.2em;
+    margin-right: 0.2em; /* to space text */
 }
 
 .sub-navbar a{
@@ -102,6 +107,33 @@ div.sub-navbar{
 .sub-navbar a:hover{
   color: var(--color-orange);
 }
+/* end sub-navbar*/
+
+
+/* navbar */
+/* hamburger menu styling (mobile)*/ 
+.navbar .hambuger-mnu-wrapper{
+  display: none;
+}
+
+.navbar .hambuger-mnu-wrapper button{
+  background-color: var(--color-white);
+  border: none;
+  cursor: pointer;
+}
+
+.navbar .hambuger-mnu-wrapper i{
+  font-size: 2em;
+  border: 1px solid var(--color-light-grey);
+  border-radius: 5px ;
+  padding: 0.2em;
+}
+
+.navbar .hambuger-mnu-wrapper i:hover{
+  border: 1px solid var(--color-orange);
+}
+/* end hamburger menu styling (mobile)*/ 
+
 
 div.navbar{
   border-top: 1px solid var(--color-light-grey);
@@ -113,67 +145,45 @@ div.navbar{
   align-items: center;
 }
 
-.hambuger-mnu-wrapper{
-  display: none;
-}
-
-.hambuger-mnu-wrapper button{
-  background-color: var(--color-white);
-  border: none;
-  cursor: pointer;
-}
-.hambuger-mnu-wrapper i{
-  font-size: 2em;
-  border: 1px solid var(--color-light-grey);
-  border-radius: 5px ;
-  padding: 0.2em;
-}
-
-.hambuger-mnu-wrapper i:hover{
-  border: 1px solid var(--color-orange);
-}
-
 .navbar .logo-text{
     font-size: 1em;
 }
 
-.logo-text span{
+.navbar .logo-text span{
     color: var(--color-orange);
 }
 
-.logo-text a{
+.navbar .logo-text a{
   color: var(--color-black);
   transition: all 0.3s ease;
 }
 
-.logo-text a:hover{
+.navbar .logo-text a:hover{
   color: var(--color-orange);
 }
 
-.navbar nav ul{
+.navbar .nav-items ul{ 
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2em;
 }
 
-.navbar nav ul a{  
-    color: var(--color-black);
-    font-size: 1.1em;
-    font-weight: 800;
-    transition: all 0.3s ease;
+.navbar .nav-items a{
+  color: var(--color-black);
+  font-size: 1.1em;
+  font-weight: 800;
+  transition: all 0.3s ease;
 }
 
-.navbar nav ul a:hover{
+
+.navbar .nav-items a:hover{
     color: var(--color-orange);
 }
-.navbar nav ul a:focus{
+.navbar .nav-items a:focus{
     color: var(--color-orange);
 }
 
-.navbar nav ul a.active{
-    color: var(--color-orange);
-}
 
 .navbar .join-now button{
     background-color: var(--color-orange);
@@ -200,77 +210,7 @@ div.navbar{
     margin-right: 1em;
 }
 
-button i {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0); }
-  button:hover i, button:focus i, button:active i {
-    -webkit-animation-name: hvr-icon-wobble-horizontal;
-    animation-name: hvr-icon-wobble-horizontal;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1; }
-
-
-a i {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0); }
-  a:hover i, a:focus i, a:active i {
-    -webkit-animation-name: hvr-icon-wobble-horizontal;
-    animation-name: hvr-icon-wobble-horizontal;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1; }
-
-
-@-webkit-keyframes hvr-icon-wobble-horizontal {
-  16.65% {
-    -webkit-transform: translateX(6px);
-    transform: translateX(6px); }
-  33.3% {
-    -webkit-transform: translateX(-5px);
-    transform: translateX(-5px); }
-  49.95% {
-    -webkit-transform: translateX(4px);
-    transform: translateX(4px); }
-  66.6% {
-    -webkit-transform: translateX(-2px);
-    transform: translateX(-2px); }
-  83.25% {
-    -webkit-transform: translateX(1px);
-    transform: translateX(1px); }
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0); } }
-@keyframes hvr-icon-wobble-horizontal {
-  16.65% {
-    -webkit-transform: translateX(6px);
-    transform: translateX(6px); }
-  33.3% {
-    -webkit-transform: translateX(-5px);
-    transform: translateX(-5px); }
-  49.95% {
-    -webkit-transform: translateX(4px);
-    transform: translateX(4px); }
-  66.6% {
-    -webkit-transform: translateX(-2px);
-    transform: translateX(-2px); }
-  83.25% {
-    -webkit-transform: translateX(1px);
-    transform: translateX(1px); }
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0); } }
-
-
-/*# sourceMappingURL=style.css.map */
-
-/* end navbar */
+/* end header*/
 
 
 /* hero */
@@ -403,7 +343,8 @@ footer{
   vertical-align: middle;
   padding: 1.5em;
   border: none;
-  border-radius: 8px
+  border-radius: 8px;
+  width: 60%;
 }
 
 .footer-container .newsletter button{
@@ -495,4 +436,76 @@ footer{
 
 
 
+/* ANIMATIONS */
 
+/* button animation */
+.animate button i {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0); }
+  .animate button:hover i, .animate button:focus i, .animate button:active i {
+  -webkit-animation-name: hvr-icon-wobble-horizontal;
+  animation-name: hvr-icon-wobble-horizontal;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1; }
+
+
+  .animate a i {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0); }
+  .animate a:hover i, .animate a:focus i, .animate a:active i {
+  -webkit-animation-name: hvr-icon-wobble-horizontal;
+  animation-name: hvr-icon-wobble-horizontal;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1; }
+
+
+@-webkit-keyframes hvr-icon-wobble-horizontal {
+16.65% {
+  -webkit-transform: translateX(6px);
+  transform: translateX(6px); }
+33.3% {
+  -webkit-transform: translateX(-5px);
+  transform: translateX(-5px); }
+49.95% {
+  -webkit-transform: translateX(4px);
+  transform: translateX(4px); }
+66.6% {
+  -webkit-transform: translateX(-2px);
+  transform: translateX(-2px); }
+83.25% {
+  -webkit-transform: translateX(1px);
+  transform: translateX(1px); }
+100% {
+  -webkit-transform: translateX(0);
+  transform: translateX(0); } }
+@keyframes hvr-icon-wobble-horizontal {
+16.65% {
+  -webkit-transform: translateX(6px);
+  transform: translateX(6px); }
+33.3% {
+  -webkit-transform: translateX(-5px);
+  transform: translateX(-5px); }
+49.95% {
+  -webkit-transform: translateX(4px);
+  transform: translateX(4px); }
+66.6% {
+  -webkit-transform: translateX(-2px);
+  transform: translateX(-2px); }
+83.25% {
+  -webkit-transform: translateX(1px);
+  transform: translateX(1px); }
+100% {
+  -webkit-transform: translateX(0);
+  transform: translateX(0); } }
+
+
+/*# sourceMappingURL=style.css.map */
+/* end button animation */
