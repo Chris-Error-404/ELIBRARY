@@ -198,6 +198,10 @@ div.navbar{
   transition: all 0.3s ease;
 }
 
+.navbar .nav-items i{
+  color: var(--color-orange);
+}
+
 
 .navbar .nav-items a:hover{
     color: var(--color-orange);
@@ -372,6 +376,12 @@ footer{
   display: flex;
   flex-direction: column;
   gap: 0.8em;
+}
+
+.footer-container .our-courses i{
+  margin-right: 0.5em;
+  font-size: 0.9em;
+  color: var(--color-orange);
 }
 
 .footer-container .newsletter p{
