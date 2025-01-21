@@ -381,6 +381,8 @@ footer{
   display: flex;
   justify-content: left;
   align-items: center;
+  gap: 0.5em;
+  margin-top: 2em;
 }
 
 .footer-container .get-in-touch .social-links i{
