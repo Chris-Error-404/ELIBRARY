@@ -379,6 +379,8 @@ footer{
 
 .footer-container .get-in-touch .social-links{
   display: flex;
+  justify-content: left;
+  align-items: center;
 }
 
 .footer-container .get-in-touch .social-links i{
