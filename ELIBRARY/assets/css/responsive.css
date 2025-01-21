@@ -1,4 +1,4 @@
-@media  (max-width: 1024px) {
+@media  (max-width: 1024px) { /* header */
     div.sub-navbar{
         display: none;
     }
@@ -24,5 +24,39 @@
         display: block;
     }
 
+}
+
+@media  (max-width: 1024px) {
+    .footer-container{
+        padding: 1em;
+        padding-top: 4em;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 3em;
+        padding-bottom: 4em;
+      }
+
+      .footer-navbar{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid var(--color-light-grey);
+        padding: 2em;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        gap: 1.5em;
+      }
+
+
+
+      .footer-navbar .copyright{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        justify-content: center;
+        align-items: center;
+      }
+      
       
 }
