@@ -404,6 +404,7 @@ footer{
 
 .footer-container input:focus{
   border: none;
+  outline: none;
 }
 
 .footer-container .newsletter button{
