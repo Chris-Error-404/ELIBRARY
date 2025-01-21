@@ -386,5 +386,27 @@ footer{
   margin-bottom: 1em;
 }
 
+.footer-container .newsletter input,button{
+  vertical-align: middle;
+  padding: 1.5em;
+  border-radius: 8px
+
+}
+
+.footer-container .newsletter input{
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0;
+  border: 1px solid var(--color-black);
+}
+
+.footer-container .newsletter input::placeholder{
+  
+}
+
+.footer-container .newsletter button{
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0;
+}
+
 
 
