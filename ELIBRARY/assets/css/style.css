@@ -382,17 +382,12 @@ footer{
   display: flex;
   justify-content: left;
   align-items: center;
-  gap: 0.5em;
-  margin-top: 2em;
+  gap: 0.7em;
+  margin-top: 2em !important;  
 }
 
 .footer-container .get-in-touch .social-links i{
   font-size: 1.5em;
-}
-
-.footer-container .get-in-touch .social-links  a{
-  border: 1px solid var(--color-white);
-  vertical-align: middle;
 }
 
 .footer-container .our-courses ul{
