@@ -73,7 +73,12 @@
         border-right: 1px solid var(--color-black);
       }
       
-      .content{
+}
+
+
+@media (max-width: 786px){
+
+    .content{
         z-index: 10;
         color: var(--color-white);
         width: 100%;
@@ -81,18 +86,19 @@
         padding-left: 1em;
         line-height: 2em;
       }
-      
-      .content h5{
+
+    .content h5{
         font-size: 1.25em;
         margin-bottom: 1em;
       }
       
       .content h1{
-        font-size: 2.2em;
+        font-size: 2.3em;
         margin-bottom: 0.5em;
       }
 
-      .content a{
-        margin-top: 2em;
+      .content a.learm-more{
+        margin-top: 1.5em;
       }
+
 }
