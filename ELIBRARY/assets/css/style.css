@@ -374,7 +374,7 @@ div.navbar{
 .form-body{
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 1.5em;
   padding: 2em;
   padding-left: 4em;
   padding-right: 4em;

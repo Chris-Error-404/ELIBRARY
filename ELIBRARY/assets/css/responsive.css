@@ -2,7 +2,7 @@
   .heading{
     font-size: 1.25em;
   }
-  
+
   .sub-heading{
     font-size: 1.740875em;
   }
@@ -121,6 +121,7 @@
     flex-direction: column;
     padding-left: 1em;
     padding-right: 1em;
+    gap: 4em; /* gap between text anf form */
   }
   
   .need-courses .need-courses-text-container{
@@ -131,4 +132,18 @@
     width: 100%;
   }
   
+  .need-courses form{
+    width: 100%;
+    background-color: var(--color-orange);
+    border-radius: 8px;
+  }
+
+  .form-body{
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .form-body button{
+    font-size: 1em;
+  }
 }
