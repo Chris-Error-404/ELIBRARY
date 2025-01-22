@@ -322,10 +322,6 @@ div.navbar{
 .need-courses{
   background-color: var(--color-black); /* to be  removed for 
   background img */
-  /* background-image: url(/ELIBRARY/assets/img/registration.jpg); */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   justify-content: space-between;
   padding-top: 4em;
@@ -333,7 +329,6 @@ div.navbar{
   padding-left: 2em;
   padding-right: 2em;
 }
-
 
 .need-courses .need-courses-text-container{
   width: 50%;
