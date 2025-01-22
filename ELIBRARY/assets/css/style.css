@@ -334,6 +334,7 @@ div.navbar{
   display: flex;
   flex-direction: column;
   gap: 1.5em;
+  /* when a word wraps can i increse the line height */
   color: var(--color-white);
 }
 
