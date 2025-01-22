@@ -323,6 +323,7 @@ div.navbar{
 .need-courses{
   background-color: var(--color-black); /* to be  removed for background img */
   display: flex;
+  justify-content: space-between;
   padding-top: 4em;
   padding-bottom: 4em;
   padding-left: 2em;
@@ -350,13 +351,16 @@ div.navbar{
 }
 
 
-.need-courses .need-courses-form-container{
-  width: 50%;
-  color: var(--color-white);
+.need-courses form{
+  width: 40%;
+  background-color: var(--color-orange);
   display: flex;
   flex-direction: column;
-  justify-content: right;
-  align-items: right;
+  padding: 2em;
+  padding-left: 4em;
+  padding-right: 4em;
+  gap: 1em;
+
 }
 
 
