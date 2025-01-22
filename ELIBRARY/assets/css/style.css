@@ -320,10 +320,27 @@ div.navbar{
 
 
 /* need courses*/
-.need-courses h3{
-  font-size: 1.2em;
+.need-courses{
+  background-color: var(--color-black); /* to be  removed for background img */
 }
 
+.need-courses .need-courses-text-container{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  color: var(--color-white);
+}
+
+.need-courses .need-courses-text-container ul{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.need-courses .need-courses-text-container i{
+  color: var(--color-orange);
+  margin-right: 0.5em;
+}
 
 
 
