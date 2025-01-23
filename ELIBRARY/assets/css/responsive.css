@@ -127,7 +127,7 @@
 
 
 @media (max-width: 1024px){
-  .need-courses{
+  .need-any-courses{
     display: flex;
     flex-direction: column;
     padding-left: 1em;
@@ -135,15 +135,15 @@
     gap: 4em; /* gap between text anf form */
   }
   
-  .need-courses .need-courses-text-container{
+  .need-any-courses .need-any-courses-text-container{
     width: 100%;
   }
 
-  .need-courses .need-courses-form-container{
+  .need-any-courses .need-any-courses-form-container{
     width: 100%;
   }
   
-  .need-courses form{
+  .need-any-courses form{
     width: 100%;
     background-color: var(--color-orange);
     border-radius: 8px;
