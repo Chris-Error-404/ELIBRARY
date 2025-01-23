@@ -414,6 +414,7 @@ div.navbar{
   color: var(--color-white);
   font-size: 1.1em;
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 .form-body button:hover{
   background-color: var(--color-white);
