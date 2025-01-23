@@ -624,10 +624,10 @@ button.animate i {
   animation-iteration-count: 1; }
 
 
-  a i {
+  a.animate i {
   -webkit-transform: translateZ(0);
   transform: translateZ(0); }
-  a:hover i, a :focus i, ae :active i {
+  a.animate:hover i, a.animate :focus i, a.animate :active i {
   -webkit-animation-name: hvr-icon-wobble-horizontal;
   animation-name: hvr-icon-wobble-horizontal;
   -webkit-animation-duration: 1s;
