@@ -1,6 +1,7 @@
 /* import font(s) */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+
 /* reset */
 *{
   margin: 0;
@@ -21,12 +22,17 @@
 }
 
 a{
-  text-decoration: none;
+  text-decoration: none !important;
   cursor: pointer;
 }
 
 ul,ol,li{
     list-style-type: none;
+}
+
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 
