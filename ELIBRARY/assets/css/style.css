@@ -346,6 +346,10 @@ div.navbar{
 
 section.courses{
   margin: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 div.courses-flex-container{
@@ -456,6 +460,7 @@ section.need-any-courses-container{
   background-size: cover;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-top: 4em;
   padding-bottom: 4em;
   padding-left: 4em;
