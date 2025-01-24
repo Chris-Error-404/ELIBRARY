@@ -343,7 +343,19 @@ div.navbar{
 /* courses section */
 div.courses-flex-container{
   display: flex;
-  gap: 1em;
+  gap: 2em;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-bottom: 2em;
+}
+
+.courses-card{
+  display: flex;
+  flex-direction: column;
+}
+
+.courses-card img{
+  width: 100%;
 }
 
 div.courses-card-text-container{
