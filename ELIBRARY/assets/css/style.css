@@ -341,22 +341,44 @@ div.navbar{
 /* end hero */
 
 /* courses section */
-
+div.courses-flex-container{
+  display: flex;
+  gap: 1em;
+}
 
 div.courses-card-text-container{
   background-color: var(--color-ligher-grey);
   display: flex;
   flex-direction: column;
   gap: 1em;
-  padding: 2em;
 }
+
+.courses-card-text-container .sub{
+  color: var(--color-light-grey);
+  font-size: 0.75em;
+}
+.courses-card-text-container .sup{
+  color: var(--color-orange);
+  font-size: 1.25em;
+}
+
+.courses-card-text-container p{
+  font-size: 1em;
+}
+
 
 .courses-card-text-container .card-top{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 2em;
+  padding-bottom: 0em;
 }
 
+.courses-card-text-container .card-middle {
+  padding-left: 2em;
+  padding-right: 2em;
+}
 .courses-card-text-container .card-middle a{
   font-size: 1.25em;
   color: var(--color-black);
@@ -367,7 +389,13 @@ div.courses-card-text-container{
 
 
 .courses-card-text-container .card-bottom{
-  
+  padding: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-top: 1px solid #d6d6df;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 
