@@ -17,7 +17,7 @@
   --color-white: #fff;
   --color-black: #191a23;
   --color-light-grey: #6C6A74;
-  --color-ligher-grey: #f2f2f8;
+  --color-lighter-grey: #f2f2f8;
   --color-orange: #FF6600;
   --color-dark-orange: #e25c03;
 }
@@ -175,7 +175,7 @@ div.sub-navbar{
 
 
 div.navbar{
-  border-top: 1px solid var(--color-light-grey);
+  border-top: 1px solid var(--color-lighter-grey);
   padding: 1.5em;
   padding-left: 2em;
   padding-right: 2em;
@@ -380,7 +380,7 @@ div.courses-flex-container{
 }
 
 div.courses-card-text-container{
-  background-color: var(--color-ligher-grey);
+  background-color: var(--color-lighter-grey);
   display: flex;
   flex-direction: column;
   gap: 1em;
