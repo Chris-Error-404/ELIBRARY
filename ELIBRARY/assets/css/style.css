@@ -361,6 +361,7 @@ div.courses-flex-container{
 .courses-card{
   display: flex;
   flex-direction: column;
+  cursor: pointer;
   transition: all 0.5s ease-in-out;
 }
 
@@ -450,14 +451,17 @@ div.courses-card-text-container{
 section.need-any-courses-container{
   margin-top: 8em;
   margin-bottom: 8em;
-}
-
-.need-any-courses{
   background-color: var(--color-black);
   background-image: url(/assets/img/registration-fix-bg.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.need-any-courses{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -477,6 +481,9 @@ section.need-any-courses-container{
   color: var(--color-white);
 }
 
+.need-any-courses .need-any-courses-text-container h1{
+line-height: 1.3em;
+}
 .need-any-courses .need-any-courses-text-container ul{
   display: flex;
   flex-direction: column;
