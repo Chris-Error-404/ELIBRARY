@@ -65,11 +65,17 @@ ul {
   font-size: 1.25em;
   color: var(--color-orange);
   letter-spacing: 0.25em;
+  text-transform: uppercase;
 }
 
 .sub-heading{
   font-size: 2.5em;
 }
+
+.section-header .heading{
+  margin-bottom: 1em;
+}
+
 /* end utilities */
 
 
@@ -314,7 +320,7 @@ div.navbar{
 }
 
 .content h1{
-  font-size: 4.5em;
+  font-size: 4em;
   margin-bottom: 0.3em;
   line-height: 1.3em;
 }
@@ -323,6 +329,25 @@ div.navbar{
   margin-left: 0.5em;
 }
 /* end hero */
+
+/* courses section */
+div.section-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
