@@ -17,12 +17,14 @@
   --color-white: #fff;
   --color-black: #191a23;
   --color-light-grey: #6C6A74;
+  --color-ligher-grey: #f2f2f8;
   --color-orange: #FF6600;
   --color-dark-orange: #e25c03;
 }
 
 a{
   text-decoration: none !important;
+  transition: all 0.3s ease;
   cursor: pointer;
 }
 
@@ -70,6 +72,14 @@ ul {
 
 .sub-heading{
   font-size: 2.5em;
+}
+
+div.section-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
 }
 
 .section-header .heading{
@@ -331,19 +341,34 @@ div.navbar{
 /* end hero */
 
 /* courses section */
-div.section-header{
+
+
+div.courses-card-text-container{
+  background-color: var(--color-ligher-grey);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  gap: 1em;
+  padding: 2em;
+}
+
+.courses-card-text-container .card-top{
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  padding: 1em;
+}
+
+.courses-card-text-container .card-middle a{
+  font-size: 1.25em;
+  color: var(--color-black);
+}
+.courses-card-text-container .card-middle a:hover{
+  color: var(--color-orange);
 }
 
 
-
-
-
-
+.courses-card-text-container .card-bottom{
+  
+}
 
 
 
