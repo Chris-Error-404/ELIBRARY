@@ -352,10 +352,26 @@ div.courses-flex-container{
 .courses-card{
   display: flex;
   flex-direction: column;
+  transition: all 0.5s ease-in-out;
+}
+
+/* hover effect*/
+.courses-card:hover{
+  transform: scale(1.05);
+}
+
+.courses-card:hover .courses-card-text-container{
+  background-color: var(--color-black);
+  color:  var(--color-white);
+}
+.courses-card:hover .courses-card-text-container a{
+  color:  var(--color-white);
 }
 
 .courses-card img{
   width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 div.courses-card-text-container{
@@ -363,6 +379,9 @@ div.courses-card-text-container{
   display: flex;
   flex-direction: column;
   gap: 1em;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  transition: all 0.3s ease-in-out;
 }
 
 .courses-card-text-container .sub{
