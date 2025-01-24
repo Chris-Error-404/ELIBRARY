@@ -122,8 +122,31 @@
 
 }
 
+@media (max-width: 1024px){
+  section.courses{
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+  div.courses-flex-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .courses-card:hover{
+    transform: scale(1);
+  }
+  
+}
+
 
 @media (max-width: 1024px){
+
+  section.need-any-courses-container{
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  
   .need-any-courses{
     display: flex;
     flex-direction: column;
