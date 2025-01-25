@@ -347,8 +347,38 @@ div.navbar{
 /* end hero */
 
 /* about section */
+section.about{
+  display: flex;
+  justify-content: center;
+  margin: 4em;
+}
 
+div.about-container{
+  display: flex;
+  gap: 2em;
+  width: 100%;
+}
+
+.about-container img{
+  max-width: 30%;
+  border-radius: 8px;
+}
+
+.about-text-container{
+  width: 50%;
+}
+
+.about-text-container a{
+
+}
+
+.about-text-container i{
+  margin-left: 0.5em;
+}
 /* end about section */
+
+
+
 
 /* courses section */
 section.courses{
