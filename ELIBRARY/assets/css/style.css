@@ -1,6 +1,10 @@
 /* import font(s) */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/* change font to work sans*/
+
+
+
 
 /* reset */
 *{
@@ -342,8 +346,9 @@ div.navbar{
 }
 /* end hero */
 
-/* courses section */
 
+
+/* courses section */
 section.courses{
   margin: 4em;
   display: flex;
@@ -392,6 +397,9 @@ div.courses-card-text-container{
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   transition: all 0.3s ease-in-out;
+  width: 100%;
+  min-height: 200px;
+  max-height: 250px;
 }
 
 .courses-card-text-container .sub{
@@ -439,6 +447,7 @@ div.courses-card-text-container{
   justify-content: space-between;
   align-items: center;
 }
+/* end courses scetiob*/
 
 
 
@@ -453,7 +462,7 @@ section.need-any-courses-container{
   margin-top: 8em;
   margin-bottom: 8em;
   background-color: var(--color-black);
-  background-image: url(/assets/img/registration-fix-bg.jpeg);
+  background-image: url(/./ELIBRARY/assets/img/registration-fix-bg.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
