@@ -635,13 +635,23 @@ section.teachers{
 
 .tecahers-flex-container{
   display: flex;
-  gap: 0.5em;
+  gap: 1em;
 }
-.teachers-card img{
-  width: 90%;
+div.team-img{
+  background-image: url(/ELIBRARY/assets/img/team-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+  min-height:200px;
+  width: 100%;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+  cursor: pointer;
 }
+
+
+
 
   .teachers-card{
     display: flex;
@@ -656,16 +666,17 @@ section.teachers{
   align-items: center;
   gap: 0.5em;
   padding: 1.5em;
-  width: 90%;
+  width: 100%;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
 
 .teachers-text-container h1{
-  font-size: 1.5em;
+  font-size: 1.1em;
 }
 .teachers-text-container p{
   font-size: 1em;
+  color: var(--color-light-grey);
 }
 /* end teachers section*/
 
