@@ -625,10 +625,48 @@ line-height: 1.3em;
 /* end need courses */
 
 /* tecahers section*/
+section.teachers{
+  margin: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tecahers-flex-container{
+  display: flex;
+  gap: 0.5em;
+}
+.teachers-card img{
+  width: 90%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
   .teachers-card{
     display: flex;
-    flex-direction: column
+    flex-direction: column;
   }
+
+.teachers-text-container{
+  background-color: var(--color-lighter-grey);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  padding: 1.5em;
+  width: 90%;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.teachers-text-container h1{
+  font-size: 1.5em;
+}
+.teachers-text-container p{
+  font-size: 1em;
+}
 /* end teachers section*/
 
 /* footer*/
