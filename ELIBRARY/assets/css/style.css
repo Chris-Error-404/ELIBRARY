@@ -355,25 +355,37 @@ section.about{
 
 div.about-container{
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 2em;
-  width: 100%;
+  max-width: 90%;
 }
 
 .about-container img{
-  max-width: 30%;
+  max-width: 35%;
   border-radius: 8px;
 }
-
 .about-text-container{
-  width: 50%;
+  width: 100%;
 }
 
-.about-text-container a{
+/* .about-text-container a{
 
 }
-
+ */
 .about-text-container i{
   margin-left: 0.5em;
+}
+
+.about-text-container .heading{
+  margin-bottom: 1em;
+}
+.about-text-container .sub-heading{
+  margin-bottom: 0.5em;
+}
+.about-text-container p{
+  margin-bottom: 1.5em;
+  font-size: 1em;
 }
 /* end about section */
 
@@ -474,7 +486,7 @@ div.courses-card-text-container{
   padding: 2em;
   padding-top: 1em;
   padding-bottom: 1em;
-  border-top: 1px solid #d6d6df;
+  border-top: 1px solid #a2a2a5;
   display: flex;
   justify-content: space-between;
   align-items: center;
