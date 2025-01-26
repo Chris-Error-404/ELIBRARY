@@ -241,6 +241,32 @@ div.navbar{
 }
 
 
+.dropdown-content{
+  display: none; /* make the content not visible */
+  position: absolute;
+  background-color: var(--color-white);
+  color: var(--color-light-grey);
+  min-width: 30px;
+  z-index: 9999;
+}
+
+
+.dropdown-content a{
+  display: block; /* amke the links blocks */
+  color: var(--color-light-grey);
+  font-size: 1em;
+  font-weight: 400;
+}
+
+
+.dropdown:hover .dropdown-content{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  padding: 1em;
+  right: 24%;
+}
+
 .navbar .join-now button{
     background-color: var(--color-orange);
     border: none;
