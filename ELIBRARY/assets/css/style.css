@@ -624,7 +624,12 @@ line-height: 1.3em;
 }
 /* end need courses */
 
-
+/* tecahers section*/
+  .teachers-card{
+    display: flex;
+    flex-direction: column
+  }
+/* end teachers section*/
 
 /* footer*/
 /* footer container */
