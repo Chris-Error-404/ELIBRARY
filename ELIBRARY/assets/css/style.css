@@ -354,19 +354,19 @@ div.navbar{
   line-height: 1.5em;
 }
 
-.content h5{
+.showcase .content h5{
   font-size: 1.25em;
   font-weight: 500;
   margin-bottom: 0.3em;
 }
 
-.content h1{
+.showcase .content h1{
   font-size: 4em;
   margin-bottom: 0.3em;
   line-height: 1.3em;
 }
 
-.content i{
+.showcase .content i{
   margin-left: 0.5em;
 }
 /* end hero */
