@@ -1,5 +1,9 @@
 /* import font(s) */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); /* change font to work sans*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* change font to work sans*/
+
+
 
 
 /* reset */
@@ -36,6 +40,7 @@ ul {
   margin: 0 !important;
   padding: 0 !important;
 }
+
 
 /* utilities */
 .navbar nav ul a.active{/* special utility to show orange on the section the user is on (home, teacher etc) */
@@ -86,6 +91,7 @@ div.section-header{
 .section-header .heading{
   margin-bottom: 1em;
 }
+
 /* end utilities */
 
 
@@ -96,9 +102,12 @@ body{
   color: var(--color-black);
   line-height: 1.5em;
   transition: all 0.5s ease;
+
 }
 
+
 /* header*/
+
 /* sub-navbar */
 div.sub-navbar{
     padding: 1em;
@@ -354,19 +363,19 @@ div.navbar{
   line-height: 1.5em;
 }
 
-.showcase .content h5{
+.content h5{
   font-size: 1.25em;
   font-weight: 500;
   margin-bottom: 0.3em;
 }
 
-.showcase .content h1{
+.content h1{
   font-size: 4em;
   margin-bottom: 0.3em;
   line-height: 1.3em;
 }
 
-.showcase .content i{
+.content i{
   margin-left: 0.5em;
 }
 /* end hero */
