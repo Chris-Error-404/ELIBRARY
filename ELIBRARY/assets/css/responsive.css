@@ -1,3 +1,13 @@
+/* root variables */
+:root{
+  --color-white: #fff;
+  --color-black: #191a23;
+  --color-light-grey: #6C6A74;
+  --color-lighter-grey: #f2f2f8;
+  --color-orange: #FF6600;
+  --color-dark-orange: #e25c03;
+}
+
 @media (max-width: 1024px){
   .heading{
     font-size: 1.25em;
@@ -156,6 +166,14 @@ div.about-container{
     transform: scale(1);
   }
 
+  .courses-card:hover .courses-card-text-container{
+    background-color: var(--color-lighter-grey);
+    color: var(--color-black);
+  }
+
+  .courses-card:hover .courses-card-text-container a{
+    color:  var(--color-black);
+  }
   
 }
 
