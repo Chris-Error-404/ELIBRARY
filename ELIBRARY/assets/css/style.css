@@ -320,7 +320,7 @@ div.navbar{
   align-items: center;
 }
 
-.video-container{
+.showcase .video-container{
   position: absolute;
   top: 0;
   left: 0;
@@ -330,7 +330,7 @@ div.navbar{
   background-color: var(--color-black) url(/assets/img/carousel-1.jpg) no-repeat center center/cover; 
 }
 
-.video-container video{
+.showcase .video-container video{
   min-width: 100%;
   min-height: 100%;
   object-fit: cover;
@@ -340,7 +340,7 @@ div.navbar{
   transform: translate(-50%, -50%);
 }
 
-.video-container::after{
+.showcase .video-container::after{
   content: '';
   position: absolute;
   top: 0;
@@ -352,7 +352,7 @@ div.navbar{
 
 }
 
-.content{
+.showcase .content{
   z-index: 10;
   color: var(--color-white);
   width: 100%;
