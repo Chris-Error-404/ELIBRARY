@@ -453,10 +453,7 @@ div.courses-flex-container{
   transform: scale(1.05);
 }
 
-.courses-card:hover .courses-card-text-container{
-  background-color: var(--color-black);
-  color:  var(--color-white);
-}
+
 .courses-card:hover .courses-card-text-container a{
   color:  var(--color-white);
 }
@@ -478,6 +475,11 @@ div.courses-card-text-container{
   width: 100%;
   min-height: 200px;
   max-height: 250px;
+}
+
+.courses-card:hover .courses-card-text-container{
+  background-color: var(--color-black);
+  color:  var(--color-white);
 }
 
 .courses-card-text-container .sub{
