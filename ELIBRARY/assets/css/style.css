@@ -242,15 +242,10 @@ div.navbar{
 
 
 .dropdown-content{
-  display: none; /* make the content not visible */
+  display: none;
   position: absolute;
   background-color: var(--color-white);
   color: var(--color-light-grey);
-  min-width: 30px;
-  z-index: 9999;
-
-
-
   padding: 0.9375em; /* 15px */
   box-shadow: 0 0.3125em 0.625em rgba(0, 0, 0, 0.3); /* 5px 10px */
   border-radius: 0.3125em; /* 5px */
