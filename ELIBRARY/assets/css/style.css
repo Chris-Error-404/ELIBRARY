@@ -38,7 +38,6 @@ ul {
   padding: 0 !important;
 }
 
-
 /* utilities */
 .navbar nav ul a.active{/* special utility to show orange on the section the user is on (home, teacher etc) */
   color: var(--color-orange);
@@ -207,10 +206,10 @@ div.navbar{
 }
 
 .navbar .nav-items ul{ 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
 }
 
 .navbar .nav-items a{
@@ -691,6 +690,7 @@ div.team-img{
   color: var(--color-light-grey);
 }
 /* end teachers section*/
+
 
 
 
