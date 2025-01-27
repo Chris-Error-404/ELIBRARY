@@ -91,7 +91,6 @@ div.section-header{
 .section-header .heading{
   margin-bottom: 1em;
 }
-
 /* end utilities */
 
 
@@ -107,7 +106,6 @@ body{
 
 
 /* header*/
-
 /* sub-navbar */
 div.sub-navbar{
     padding: 1em;
@@ -240,7 +238,6 @@ div.navbar{
     color: var(--color-orange);
 }
 
-
 .dropdown-content{
   display: none;
   position: absolute;
@@ -254,14 +251,12 @@ div.navbar{
   transition: 0.5s ease;
 }
 
-
 .nav-items .dropdown-content a{
   display: block; /* amke the links blocks */
   color: var(--color-light-grey);
   font-size: 1em;
   font-weight: 400;
 }
-
 
 .dropdown:hover .dropdown-content{
   display: flex;
@@ -271,19 +266,19 @@ div.navbar{
 }
 
 .navbar .join-now button{
-    background-color: var(--color-orange);
-    border: none;
-    border-radius: 10px;
-    vertical-align: middle;
-    color: var(--color-white);
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    font-size: 0.9em;
-    font-weight: 800;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  background-color: var(--color-orange);
+  border: none;
+  border-radius: 10px;
+  vertical-align: middle;
+  color: var(--color-white);
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-size: 0.9em;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .navbar .join-now button:hover{
@@ -398,10 +393,6 @@ div.about-container{
   width: 100%;
 }
 
-/* .about-text-container a{
-
-}
- */
 .about-text-container i{
   margin-left: 0.5em;
 }
@@ -448,7 +439,6 @@ div.courses-flex-container{
   transform: scale(1.05);
 }
 
-
 .courses-card:hover .courses-card-text-container a{
   color:  var(--color-white);
 }
@@ -490,7 +480,6 @@ div.courses-card-text-container{
   font-size: 1em;
 }
 
-
 .courses-card-text-container .card-top{
   display: flex;
   justify-content: space-between;
@@ -512,7 +501,6 @@ div.courses-card-text-container{
   color: var(--color-orange);
 }
 
-
 .courses-card-text-container .card-bottom{
   padding: 2em;
   padding-top: 1em;
@@ -523,12 +511,6 @@ div.courses-card-text-container{
   align-items: center;
 }
 /* end courses scetiob*/
-
-
-
-
-
-
 
 
 
@@ -655,6 +637,10 @@ line-height: 1.3em;
 }
 /* end need courses */
 
+
+
+
+
 /* tecahers section*/
 section.teachers{
   margin: 4em;
@@ -668,6 +654,7 @@ section.teachers{
   display: flex;
   gap: 1em;
 }
+
 div.team-img{
   background-image: url(/ELIBRARY/assets/img/team-1.jpg);
   background-position: center;
@@ -681,14 +668,10 @@ div.team-img{
   cursor: pointer;
 }
 
-
-
-
-
-  .teachers-card{
-    display: flex;
-    flex-direction: column;
-  }
+.teachers-card{
+  display: flex;
+  flex-direction: column;
+}
 
 .teachers-text-container{
   background-color: var(--color-lighter-grey);
@@ -711,6 +694,9 @@ div.team-img{
   color: var(--color-light-grey);
 }
 /* end teachers section*/
+
+
+
 
 /* footer*/
 /* footer container */
@@ -828,8 +814,6 @@ footer{
 .footer-container .newsletter i{
   margin-right: 0.6em;
 }
-
-
 /* end footer container */
 
 
@@ -888,7 +872,6 @@ footer{
 
 
 /* ANIMATIONS */
-
 /* button and a tag animation */
 button.animate i {
   -webkit-transform: translateZ(0);
