@@ -940,3 +940,30 @@ button.animate i {
 
 /*# sourceMappingURL=style.css.map */
 /* end button and a tag animation */
+
+
+
+/* Overlay temporary position */
+.overlay{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  background-color: #ececec;
+  color: #fff;
+  width: 50%;
+  position: fixed;
+  z-index:10;
+  transform: translateX(-100%);
+  transition: all 0.5s ease-in;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+.overlay.open{
+  transform: translateX(0);
+}
+
+
+
