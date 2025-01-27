@@ -248,6 +248,15 @@ div.navbar{
   color: var(--color-light-grey);
   min-width: 30px;
   z-index: 9999;
+
+
+
+  padding: 0.9375em; /* 15px */
+  box-shadow: 0 0.3125em 0.625em rgba(0, 0, 0, 0.3); /* 5px 10px */
+  border-radius: 0.3125em; /* 5px */
+  z-index: 1000;
+  min-width: 12.5em;
+  transition: 0.5s ease;
 }
 
 
