@@ -37,7 +37,6 @@ ul {
   padding: 0 !important;
 }
 
-
 /* utilities */
 .navbar nav ul a.active{/* special utility to show orange on the section the user is on (home, teacher etc) */
   color: var(--color-orange);
@@ -87,7 +86,6 @@ div.section-header{
 .section-header .heading{
   margin-bottom: 1em;
 }
-
 /* end utilities */
 
 
@@ -98,12 +96,9 @@ body{
   color: var(--color-black);
   line-height: 1.5em;
   transition: all 0.5s ease;
-
 }
 
-
 /* header*/
-
 /* sub-navbar */
 div.sub-navbar{
     padding: 1em;
