@@ -251,7 +251,7 @@ div.navbar{
 }
 
 
-.dropdown-content a{
+.nav-items .dropdown-content a{
   display: block; /* amke the links blocks */
   color: var(--color-light-grey);
   font-size: 1em;
