@@ -264,7 +264,6 @@ div.navbar{
   flex-direction: column;
   gap: 0.5em;
   padding: 1em;
-  right: 24%;
 }
 
 .navbar .join-now button{
