@@ -1018,11 +1018,11 @@ button.animate i {
 
 .overlay .mobile-nav-items-container li{
   padding: 0.3em;
-  padding-left: 1em;
+  padding-left: 1.5em;
   transition: all 0.3s ease;
 }
 
-.overlay .mobile-nav-items-container i{
+div.overlay div.mobile-nav-items-container i{
   margin-right: 0.5em;
 }
 
