@@ -983,6 +983,7 @@ button.animate i {
 }
 .overlay a{
   color: var(--color-white);
+  font-weight: 800;
 }
 
 .overlay .overlay-header i{
@@ -1004,6 +1005,8 @@ button.animate i {
 
 .overlay .mobile-nav-items-container{
   padding: 1.5em;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .overlay .mobile-nav-items-container ul{
@@ -1012,6 +1015,22 @@ button.animate i {
   gap: 1.5em;
   font-size: 1.2em;
 }
+
+.overlay .mobile-nav-items-container li{
+  padding: 0.3em;
+  padding-left: 1em;
+  transition: all 0.3s ease;
+}
+
+.overlay .mobile-nav-items-container li:hover{
+  background-color: var(--color-white);
+}
+
+.overlay .mobile-nav-items-container li:hover .overlay a{
+  color: var(--color-black);
+}
+
+
 
 /* end hamburger menu styling (mobile)*/ 
 
