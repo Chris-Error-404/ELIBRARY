@@ -950,7 +950,7 @@ button.animate i {
   flex-direction: column;
   background-color: #ececec;
   color: #fff;
-  width: 50%;
+  width: 80%;
   position: fixed;
   z-index:10;
   transform: translateX(-100%);
