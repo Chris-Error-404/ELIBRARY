@@ -949,7 +949,7 @@ button.animate i {
   display: flex;
   flex-direction: column;
   background-color: var(--color-white);
-  width: 100%;
+  width: 80%;
   position: fixed;
   z-index:10;
   transform: translateX(100%); /* makes it open from the left to the right*/
