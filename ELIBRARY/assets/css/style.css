@@ -981,6 +981,9 @@ button.animate i {
   border: none;
   cursor: pointer;
 }
+.overlay a{
+  color: var(--color-white);
+}
 
 .overlay .overlay-header i{
   color: var(--color-white);
@@ -998,6 +1001,18 @@ button.animate i {
 .overlay .overlay-header i:focus{
   border: 1px solid var(--color-orange);
 }
+
+.overlay .mobile-nav-items-container{
+  padding: 1.5em;
+}
+
+.overlay .mobile-nav-items-container ul{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  font-size: 1.2em;
+}
+
 /* end hamburger menu styling (mobile)*/ 
 
 
