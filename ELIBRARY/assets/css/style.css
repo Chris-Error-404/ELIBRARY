@@ -948,8 +948,7 @@ button.animate i {
   position: fixed;
   display: flex;
   flex-direction: column;
-  background-color: #ececec;
-  color: #fff;
+  background-color: var(--color-white);
   width: 80%;
   position: fixed;
   z-index:10;
