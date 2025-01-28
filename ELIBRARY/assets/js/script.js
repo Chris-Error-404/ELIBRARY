@@ -23,3 +23,21 @@ document.addEventListener('click', (e) => {
         document.body.classList.remove('overlay-open'); // Enable scrolling
     }
 });
+
+
+
+//LI AND A TAG ACTIVATION SCRIPT
+// Select all the <li> elements
+const listItems = document.querySelectorAll('li');
+// Loop through each <li> and add a click event listener
+listItems.forEach(item => {
+    item.addEventListener('click', () => {
+        // Find the <a> inside the clicked <li>
+        const link = item.querySelector('a');
+        
+        // If the <a> exists, simulate a click on it
+        if (link) {
+            link.click();
+        }
+    });
+});
