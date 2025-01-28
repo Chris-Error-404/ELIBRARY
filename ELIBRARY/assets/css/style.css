@@ -949,7 +949,7 @@ button.animate i {
   display: flex;
   flex-direction: column;
   background-color: var(--color-white);
-  width: 80%;
+  width: 100%;
   position: fixed;
   z-index:10;
   transform: translateX(-100%);
@@ -962,6 +962,18 @@ button.animate i {
 
 .overlay.open{
   transform: translateX(0);
+}
+
+
+/* overlay styling */
+.overlay-header{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.none{
+  display: none;
 }
 
 
