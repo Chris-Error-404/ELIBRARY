@@ -1022,12 +1022,8 @@ button.animate i {
   transition: all 0.3s ease;
 }
 
-.overlay .mobile-nav-items-container li:hover{
-  background-color: var(--color-white);
-}
-
-.overlay .mobile-nav-items-container li:hover .overlay a{
-  color: var(--color-black);
+.overlay .mobile-nav-items-container i{
+  margin-right: 0.5em;
 }
 
 
