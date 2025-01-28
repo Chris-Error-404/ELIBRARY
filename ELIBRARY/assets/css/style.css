@@ -949,7 +949,7 @@ button.animate i {
   position: fixed;
   display: flex;
   flex-direction: column;
-  background-color: var(--color-white);
+  background-color: var(--color-black);
   width: 80%;
   position: fixed;
   z-index:10;
@@ -976,17 +976,17 @@ button.animate i {
 }
 
 .overlay button{
-  background-color: var(--color-white);
+  background-color: var(--color-black);
+  outline: none;
   border: none;
   cursor: pointer;
 }
 
 .overlay .overlay-header i{
-  font-size: 2em;
+  color: var(--color-white);
+  font-size: 2.5em;
   font-weight: 700;
-  border: 1px solid var(--color-light-grey);
-  border-radius: 5px ;
-  padding: 0.2em;
+  border: none;
 }
 
 .overlay .overlay-header i:hover{
