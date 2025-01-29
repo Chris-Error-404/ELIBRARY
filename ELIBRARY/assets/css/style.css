@@ -245,7 +245,11 @@ div.navbar{
   border-radius: 0.3125em; /* 5px */
   z-index: 1000;
   min-width: 12.5em;
-  transition: 0.5s ease;
+  opacity: 0;
+  transform: translateY(-10px);
+  visibility: hidden;
+  transition:  all 0.3s ease;
+
 }
 
 .nav-items .dropdown-content a{
@@ -260,6 +264,9 @@ div.navbar{
   flex-direction: column;
   gap: 0.5em;
   padding: 1em;
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
 }
 
 .navbar .join-now button{
