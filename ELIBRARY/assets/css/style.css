@@ -1069,6 +1069,40 @@ button.animate i {
 }
 
 
+.overlay .dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: var(--color-white);
+  color: var(--color-light-grey);
+  padding: 0.9375em; /* 15px */
+  box-shadow: 0 0.3125em 0.625em rgba(0, 0, 0, 0.3); /* 5px 10px */
+  border-radius: 0.3125em; /* 5px */
+  z-index: 1000;
+  min-width: 12.5em;
+  opacity: 0;
+  transform: translateY(-10px);
+  visibility: hidden;
+  transition:  all 0.3s ease;
+
+}
+
+.overlay .dropdown-content a{
+  display: block; /* amke the links blocks */
+  color: var(--color-light-grey);
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.overlay .dropdown:hover .overlay .dropdown-content{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  padding: 1em;
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
 
 /* end hamburger menu styling (mobile)*/ 
 
