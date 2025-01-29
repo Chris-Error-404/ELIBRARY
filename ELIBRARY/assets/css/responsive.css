@@ -138,7 +138,7 @@ div.about-container{
   
 }
 
-
+/* need any courses */
 @media (max-width: 1024px){
 
   section.need-any-courses-container{
@@ -177,6 +177,8 @@ div.about-container{
     font-size: 1em;
   }
 }
+/* end need any courses */
+
 
 /* footer */
 @media  (max-width: 1024px) {
@@ -200,8 +202,6 @@ div.about-container{
       padding-bottom: 1.5em;
       gap: 1.8em;
     }
-
-
 
     .footer-navbar .copyright{
       display: flex;
