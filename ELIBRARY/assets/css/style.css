@@ -1,5 +1,5 @@
 /* import font(s) */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');/* change font to work sans*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
 
 
@@ -10,7 +10,7 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
 /* root variables */
@@ -91,7 +91,7 @@ div.section-header{
 
 
 body{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: var(--color-black);
   background-color: var(--color-white);
   color: var(--color-black);
