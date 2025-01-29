@@ -1097,7 +1097,7 @@ button.animate i {
   display: flex;
   flex-direction: column;
   gap: 2em;
-  padding: 1em;
+  padding: 2.5em;
 }
 
 
