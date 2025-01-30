@@ -698,6 +698,7 @@ section.teachers{
   max-width: 100%;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+  display: block;
 }
 
 .teachers-text-container{
