@@ -145,7 +145,7 @@
 
   section.need-any-courses-container{
     margin-top: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 6em;
   }
   
   .need-any-courses{
@@ -186,6 +186,7 @@
 
   section.teachers{
     margin: 2em;
+    margin-bottom: 10em;
   }
 
   .teachers-flex-container{
@@ -193,7 +194,7 @@
     flex-direction: column;
     gap: 1.5em;
   }
-  
+
 }
 /* end teachers section */
 
