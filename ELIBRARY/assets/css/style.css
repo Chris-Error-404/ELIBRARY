@@ -689,22 +689,13 @@ section.teachers{
   gap: 1em;
 }
 
-div.team-img{
-  background-image: url(/ELIBRARY/assets/img/team-1.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top right;
-  min-height:200px;
-  width: 100%;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  cursor: pointer;
-}
-
 .teachers-card{
   display: flex;
   flex-direction: column;
+}
+
+.teachers-card img{
+  max-width: 100%;
 }
 
 .teachers-text-container{
