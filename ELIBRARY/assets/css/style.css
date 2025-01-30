@@ -1005,9 +1005,11 @@ button.animate i {
 
 /* Overlay temporary position */
 .overlay{
+
   position: fixed;
-  display: flex;
-  flex-direction: column;
+/*   display: flex;
+  flex-direction: column; */
+  display: none;
   background-color: var(--color-black);
   width: 80%;
   position: fixed;
