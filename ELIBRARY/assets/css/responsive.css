@@ -18,6 +18,12 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .overlay{
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 @media  (max-width: 1024px) { /* header */
     div.sub-navbar{
