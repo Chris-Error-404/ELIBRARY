@@ -684,7 +684,7 @@ section.teachers{
   align-items: center;
 }
 
-.tecahers-flex-container{
+.teachers-flex-container{
   display: flex;
   gap: 1em;
 }
