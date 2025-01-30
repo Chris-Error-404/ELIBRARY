@@ -696,6 +696,8 @@ section.teachers{
 
 .teachers-card img{
   max-width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .teachers-text-container{
