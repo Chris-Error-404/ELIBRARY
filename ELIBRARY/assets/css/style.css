@@ -551,7 +551,7 @@ div.courses-card-text-container{
 /* need courses*/
 section.need-any-courses-container{
   margin-top: 8em;
-  margin-bottom: 8em;
+  margin-bottom: 4em;
  /*  background-color: var(--color-black); */
   background-image: url(/assets/img/registration-fix-bg.jpeg);
   background-position: center;
@@ -678,6 +678,7 @@ line-height: 1.3em;
 /* tecahers section*/
 section.teachers{
   margin: 4em;
+  margin-top: 0em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -700,6 +701,27 @@ section.teachers{
   border-top-right-radius: 8px;
   display: block;
 }
+
+/* .teachers-card img::before{
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(68, 66, 90, 0.8);
+  transition: .5s;
+  z-index: 10000;
+  opacity: 1;
+}
+
+
+.teachers-card:hover {
+  color: red;
+}
+ */
 
 .teachers-text-container{
   background-color: var(--color-lighter-grey);
