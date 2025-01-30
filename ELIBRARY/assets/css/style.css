@@ -707,6 +707,7 @@ section.teachers{
   gap: 0.5em;
   padding: 1.5em;
   width: 100%;
+  max-width: 100%;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
