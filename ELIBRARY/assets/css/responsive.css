@@ -181,6 +181,23 @@
 }
 /* end need any courses */
 
+/* teaachers section*/
+@media (max-width: 1024px){
+
+  section.teachers{
+    margin: 2em;
+  }
+
+  .teachers-flex-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+  }
+  
+}
+/* end teachers section */
+
+
 
 /* footer */
 @media  (max-width: 1024px) {
