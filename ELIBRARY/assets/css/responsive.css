@@ -92,22 +92,22 @@
   }
 
 @media (max-width: 1024px){/* change made */
-section.about{
-  margin-left: 1em;
-  margin-right: 1em;
-}
+  section.about{
+    margin-left: 1em;
+    margin-right: 1em;
+  }
 
-div.about-container{
-  flex-direction: column;
-  max-width: 100%;
-}
+  div.about-container{
+    flex-direction: column;
+    max-width: 100%;
+  }
 
-.about-container img{
-  max-width: 100%;
-}
-.about-text-container{
-  width: 100%;
-}
+  .about-container img{
+    max-width: 100%;
+  }
+  .about-text-container{
+    width: 100%;
+  }
 }
 
 
