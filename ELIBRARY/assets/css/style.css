@@ -25,6 +25,7 @@
 
 a{
   text-decoration: none;
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   cursor: pointer;
 }
@@ -56,6 +57,7 @@ ul {
   font-size: 0.95em;
   font-weight: 500;
   cursor: pointer;
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -97,6 +99,7 @@ body{
   background-color: var(--color-white);
   color: var(--color-black);
   line-height: 1.5em;
+  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 
 }
@@ -127,6 +130,7 @@ div.sub-navbar{
 .sub-navbar a{
     color: var(--color-light-grey);
     font-size: 0.85em;
+    -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
@@ -194,6 +198,7 @@ div.navbar{
 
 .navbar .logo-text a{
   color: var(--color-black);
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -218,6 +223,7 @@ div.navbar{
   color: var(--color-black);
   font-size: 1.1em;
   font-weight: 800;
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -249,6 +255,7 @@ div.navbar{
   opacity: 0;
   transform: translateY(-10px);
   visibility: hidden;
+  -webkit-transition:  all 0.3s ease;
   transition:  all 0.3s ease;
 
 }
@@ -283,6 +290,7 @@ div.navbar{
   font-size: 0.9em;
   font-weight: 800;
   cursor: pointer;
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -430,7 +438,9 @@ div.about-container{
   text-decoration: none;
   overflow: hidden;
   border-radius: 10px;
+  -webkit-transition: background-size 0.5s ease;
   transition: background-size 0.5s ease;
+  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
@@ -475,6 +485,7 @@ div.courses-flex-container{
   display: flex;
   flex-direction: column;
   cursor: pointer;
+  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
@@ -503,10 +514,11 @@ div.courses-card-text-container{
   gap: 1em;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
-  transition: all 0.3s ease-in-out;
   width: 100%;
   min-height: 200px;
   max-height: 250px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .courses-card:hover .courses-card-text-container{
@@ -669,6 +681,7 @@ line-height: 1.3em;
   background-color: var(--color-black);
   color: var(--color-white);
   font-size: 1.1em;
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   cursor: pointer;
 }
@@ -781,6 +794,7 @@ footer{
 
 .footer-container a{
   color: var(--color-white);
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -871,6 +885,7 @@ footer{
   border-bottom-left-radius: 0;
   background-color: var(--color-orange);
   color: var(--color-white);
+  -webkit-transition: all 0.3s ease ;
   transition: all 0.3s ease ;
 }
 
@@ -901,6 +916,7 @@ footer{
 
 .footer-navbar a{
   color: var(--color-white);
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -1023,11 +1039,12 @@ button.animate i {
   position: fixed;
   z-index:10;
   transform: translateX(100%); /* makes it open from the left to the right*/
-  transition: all 0.5s ease-in;
   height: 100%;
   min-height: 100vh;
   top: 0;
   right: 0;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
 }
 
 
@@ -1060,6 +1077,7 @@ button.animate i {
   color: var(--color-white);
   font-size: 2.5em;
   font-weight: 700;
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -1090,6 +1108,7 @@ button.animate i {
   padding: 0.3em;
   padding-left: 1.5em;
   cursor: pointer;
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -1115,6 +1134,7 @@ button.animate i {
   opacity: 0;
   transform: translateY(-10px);
   visibility: hidden;
+  -webkit-transition:  all 0.3s ease;
   transition:  all 0.3s ease;
 
 }
