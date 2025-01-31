@@ -120,8 +120,8 @@
 /* courses section */
 @media (max-width: 1024px){
   section.courses{
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
   }
 
   div.courses-flex-container{
@@ -192,6 +192,8 @@
 
   section.teachers{
     margin: 2em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
     margin-bottom: 10em;
   }
 
