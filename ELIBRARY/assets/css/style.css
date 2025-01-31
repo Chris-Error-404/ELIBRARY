@@ -459,6 +459,11 @@ section.courses{
   align-items: center;
 }
 
+section.courses i{
+  color: var(--color-orange);
+  margin-right: 0.5em;
+}
+
 div.courses-flex-container{
   display: flex;
   gap: 2em;
@@ -479,6 +484,9 @@ div.courses-flex-container{
 
 .courses-card:hover .courses-card-text-container a{
   color:  var(--color-white);
+}
+.courses-card:hover .courses-card-text-container .sup{
+  color:  var(--color-orange);
 }
 
 .courses-card img{
@@ -510,7 +518,7 @@ div.courses-card-text-container{
   font-size: 0.75em;
 }
 .courses-card-text-container .sup{
-  color: var(--color-orange);
+  color: var(--color-light-grey);
   font-size: 1.25em;
 }
 
