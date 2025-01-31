@@ -1005,6 +1005,7 @@ button.animate i {
 
 /* Overlay temporary position */
 .overlay{
+
   position: fixed;
   display: none;
   background-color: var(--color-black);
