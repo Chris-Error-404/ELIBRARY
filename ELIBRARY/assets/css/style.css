@@ -529,6 +529,9 @@ div.courses-card-text-container{
   background-color: var(--color-black);
   color:  var(--color-white);
 }
+.courses-card:hover .courses-card-text-container .sub{
+  color:  var(--color-lighter-grey)
+}
 
 .courses-card-text-container .sub{
   color: var(--color-light-grey);
