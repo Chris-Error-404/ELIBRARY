@@ -39,6 +39,10 @@ ul {
   padding: 0 !important;
 }
 
+button{
+  vertical-align: middle;
+}
+
 /* utilities */
 .navbar nav ul a.active{/* special utility to show orange on the section the user is on (home, teacher etc) */
   color: var(--color-orange);
