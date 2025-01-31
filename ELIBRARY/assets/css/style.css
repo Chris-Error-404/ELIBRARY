@@ -707,6 +707,7 @@ section.teachers{
 .teachers-card{
   display: flex;
   flex-direction: column;
+  cursor: pointer;
 }
 
 .teachers-card img{
