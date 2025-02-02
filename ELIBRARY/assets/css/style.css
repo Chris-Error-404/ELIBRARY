@@ -438,6 +438,9 @@ section.subjects{
   align-items: center;
 }
 
+.subjects a.subject-box{
+  display: block;
+}
 
 
 
