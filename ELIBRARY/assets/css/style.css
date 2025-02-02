@@ -440,42 +440,8 @@ section.subjects{
   margin-right: 2em;
 }
 
-.subjects-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 4em;
-}
-.link-container {
-  display: block;
-  color: var(--color-white);
-  width: 100%;
-}
 
-.subject-box{
-  background-image: url(/assets/img/cat-1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 200%;
-/*   padding: 3em;
-  padding-left: 4.5em;
-  padding-right: 4.5em; */
-  border-radius: 8px;
-}
 
-.subject-box h4{
-  font-size: 1.5em;
-  font-weight: 900;
-}
-
-.subject-box p{
-  font-size: 1em;
-}
 
 
 /* end subjects */
@@ -538,9 +504,10 @@ div.courses-card-text-container{
   border-bottom-right-radius: 8px;
   width: 100%;
   min-height: 200px;
-  max-height: 250px;
+  max-height: 200px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  overflow: hidden;
 }
 
 .courses-card:hover .courses-card-text-container{
