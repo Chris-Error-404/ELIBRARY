@@ -438,13 +438,7 @@ section.subjects{
   align-items: center;
 }
 
-.subjects a.subjects-link-box{
-  display: block;
-}
 
-.subjects .subjects-container .subjects-link-box img{
-  border-radius: 8px;
-}
 
 
 /* end subjects */
