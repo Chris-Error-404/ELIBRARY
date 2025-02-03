@@ -120,21 +120,22 @@ div.sub-navbar{
 }
 
 .sub-navbar h4{
-    color: var(--color-black);
-    font-size: 0.9;
-    display: inline;
-    margin-right: 0.2em; /* to space text */
+  color: var(--color-black);
+  font-size: 0.9;
+  display: inline;
+  margin-right: 0.2em; /* to space text */
 }
+
 .sub-navbar i{
   margin-right: 0.5em;
   color: var(--color-orange);
 }
 
 .sub-navbar a{
-    color: var(--color-light-grey);
-    font-size: 0.85em;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+  color: var(--color-light-grey);
+  font-size: 0.85em;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .sub-navbar a:hover{
