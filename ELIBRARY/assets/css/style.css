@@ -235,7 +235,6 @@ div.navbar{
   color: var(--color-orange);
 }
 
-
 .navbar .nav-items a:hover{
     color: var(--color-orange);
 }
@@ -279,6 +278,7 @@ div.navbar{
   transform: translateY(0);
   visibility: visible;
 }
+
 
 .navbar .join-now button{
   background-color: var(--color-orange);
@@ -470,19 +470,6 @@ div.courses-flex-container{
   transition: all 0.5s ease-in-out;
 }
 
-/* hover effect*/
-.courses-card:hover{
-  transform: scale(1.05);
-}
-
-.courses-card:hover .courses-card-text-container a{
-  color:  var(--color-white);
-}
-.courses-card:hover .courses-card-text-container .sup{
-  color:  var(--color-orange);
-}
-/* end hover effect */
-
 .courses-card img{
   width: 100%;
   border-top-left-radius: 8px;
@@ -502,14 +489,6 @@ div.courses-card-text-container{
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   overflow: hidden;
-}
-
-.courses-card:hover .courses-card-text-container{
-  background-color: var(--color-black);
-  color:  var(--color-white);
-}
-.courses-card:hover .courses-card-text-container .sub{
-  color:  var(--color-lighter-grey)
 }
 
 .courses-card-text-container .sub{
@@ -556,6 +535,28 @@ div.courses-card-text-container{
   justify-content: space-between;
   align-items: center;
 }
+
+/* hover effect*/
+.courses-card:hover{
+  transform: scale(1.05);
+}
+
+.courses-card:hover .courses-card-text-container{
+  background-color: var(--color-black);
+  color:  var(--color-white);
+}
+
+.courses-card:hover .courses-card-text-container a{
+  color:  var(--color-white);
+}
+.courses-card:hover .courses-card-text-container .sup{
+  color:  var(--color-orange);
+}
+
+.courses-card:hover .courses-card-text-container .sub{
+  color:  var(--color-lighter-grey)
+}
+/* end hover effect */
 /* end COURSES SECTION*/
 
 
