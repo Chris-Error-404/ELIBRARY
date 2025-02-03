@@ -74,6 +74,7 @@ input:focus{
 
 .heading{ 
   font-size: 1.25em;
+  font-weight: 600;
   color: var(--color-orange);
   letter-spacing: 0.25em;
   text-transform: uppercase;
