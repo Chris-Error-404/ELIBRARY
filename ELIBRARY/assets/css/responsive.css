@@ -218,6 +218,7 @@
 
 
 
+
 /* TEACHERS SECTION */
 @media (max-width: 1024px){
 
@@ -239,6 +240,15 @@
 }
 /* end TEACHERS SECTION */
 
+
+/* TESTIMONIAL SECTION */
+@media (max-width: 1024px){
+  section.testimonials i{
+    font-size: 2em;
+  }
+}
+
+/* end TESTIMONIAL SECTION */
 
 
 /* FOOTER*/
