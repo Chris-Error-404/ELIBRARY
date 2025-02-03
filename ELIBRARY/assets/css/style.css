@@ -991,7 +991,7 @@ button.animate i {
 
 
 
-/* Overlay temporary position */
+/* OVERLAY */
 .overlay{
   position: fixed;
   display: none;
@@ -1078,7 +1078,6 @@ button.animate i {
   margin-left: 0.5em;
 }
 
-
 .overlay .dropdown-content{
   display: none;
   position: absolute;
@@ -1109,10 +1108,7 @@ button.animate i {
   gap: 2em;
   padding: 2.5em;
 }
-
-
-
-/* end hamburger menu styling (mobile)*/ 
+/* end OVERLAY */
 
 
 
