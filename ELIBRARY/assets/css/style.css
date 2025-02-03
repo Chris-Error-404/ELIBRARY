@@ -541,7 +541,7 @@ div.courses-card-text-container{
 }
 .courses-card-text-container .card-middle a{
   font-size: 1.25em;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--color-black);
 }
 .courses-card-text-container .card-middle a:hover{
