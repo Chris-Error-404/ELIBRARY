@@ -8,6 +8,7 @@
   --color-dark-orange: #e25c03;
 }
 
+/* UTILITIES */
 @media (max-width: 1024px){
   .heading{
     font-size: 1.25em;
@@ -17,6 +18,8 @@
     font-size: 1.740875em;
   }
 }
+/* end UTILITIES*/
+
 
 @media (max-width: 1024px) {
   .overlay{
@@ -25,6 +28,8 @@
   }
 }
 
+
+/* HEADER */
 @media  (max-width: 1024px) { /* header */
     div.sub-navbar{
         display: none;
@@ -51,7 +56,10 @@
     }
 
 }
+/* end HEADER */
 
+
+/* HERO */
 @media (max-width: 1024px){
   .video-container::after{
     height: 100vh;
@@ -69,8 +77,6 @@
     justify-content: center;
     text-align: center;
   }
-
-      
 }
 
 @media (max-width: 786px){
@@ -94,9 +100,12 @@
     .content a.learm-more{
       margin-top: 1.5em;
     }
-  
-  }
 
+  }
+/* end HERO*/  
+
+
+/* ABOUT SECTION */
 @media (max-width: 1024px){/* change made */
   section.about{
     margin-left: 1em;
@@ -115,9 +124,10 @@
     width: 100%;
   }
 }
+/* end ABOUT SECTION */
 
 
-/* courses section */
+/* COURSES SECTION */
 @media (max-width: 1024px){
   section.courses{
     margin-left: 2.5em;
@@ -143,10 +153,10 @@
   }
   
 }
-/* end courses section */
+/* end COURSES SECTION*/
 
 
-/* need any courses */
+/* NEED ANY COURSES SECTION */
 @media (max-width: 1024px){
 
   section.need-any-courses-container{
@@ -185,9 +195,11 @@
     font-size: 1em;
   }
 }
-/* end need any courses */
+/* end NEED ANY COURSES SECTION */
 
-/* teaachers section*/
+
+
+/* TEACHERS SECTION */
 @media (max-width: 1024px){
 
   section.teachers{
@@ -204,11 +216,11 @@
   }
 
 }
-/* end teachers section */
+/* end TEACHERS SECTION */
 
 
 
-/* footer */
+/* FOOTER*/
 @media  (max-width: 1024px) {
 .footer-container{
     padding: 1em;
@@ -239,4 +251,4 @@
     align-items: center;
   }
 }
-/*end footer */
+/*end FOOTER */
