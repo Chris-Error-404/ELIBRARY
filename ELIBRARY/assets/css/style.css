@@ -521,6 +521,7 @@ div.courses-card-text-container{
 .courses-card-text-container .sup{
   color: var(--color-light-grey);
   font-size: 1.25em;
+  font-weight: 600;
 }
 
 .courses-card-text-container p{
