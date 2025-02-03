@@ -78,8 +78,9 @@ input:focus{
   text-transform: uppercase;
 }
 
-.sub-heading{
-  font-size: 2.5em;
+.sub-heading{/* 
+  font-size: 2.5em; */
+  font-size: calc(1.375rem + 1.5vw);
   line-height: 1em;
   font-weight: 900 !important;
 }
@@ -741,15 +742,63 @@ section.teachers{
 
 /* TESTIMONIALS SECTION */
 section.testimonials{
+  margin: 4em;
   margin-top: 0;
   margin-bottom: 10em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-section.testimonials i{
+.testimonials .testimonial-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2em;
+  width: 70%;
+ /*  padding: 1em; */
+/*   border: 1px solid red; */
+}
+
+section.testimonials .testimonial-card i{
   font-size: 4em;
   color: var(--color-orange);
-  margin-top: 0.5em;
 }
+
+.testimonial-card .testimonial-card-top{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.testimonial-card .testimonial-card-top p{
+  font-size: 1.5em;
+}
+
+.testimonial-card .testimonial-card-bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.testimonial-card .testimonial-card-bottom img{
+  width: 70%;
+  border-radius: 80px;
+}
+
+.testimonial-card .testimonial-card-bottom h3{
+  font-weight: 600;
+}
+
+.testimonial-card .testimonial-card-bottom p{
+  font-weight: 500;
+  color: var(--color-light-grey);
+}
+
 
 
 

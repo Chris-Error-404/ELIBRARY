@@ -14,9 +14,9 @@
     font-size: 1.25em;
   }
 
-  .sub-heading{
+/*   .sub-heading{
     font-size: 1.740875em;
-  }
+  } */
 }
 /* end UTILITIES*/
 
@@ -149,8 +149,8 @@
   div.courses-flex-container{
     display: flex;
     flex-direction: column;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
   }
 
   .courses-card:hover{
@@ -241,9 +241,34 @@
 
 /* TESTIMONIAL SECTION */
 @media (max-width: 1024px){
-  section.testimonials i{
-    font-size: 2em;
+
+  section.testimonials{
+    margin: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 10em;
   }
+
+  .testimonials .section-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+
+  .testimonials .section-header h1{
+    line-height: 1.1em;
+  }
+
+  .testimonials .testimonial-card{
+    width: 100%;
+  }
+
+/*   section.testimonials .testimonial-card i {
+    font-size: 2em;
+  } */
 }
 
 /* end TESTIMONIAL SECTION */
