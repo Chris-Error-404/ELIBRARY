@@ -1,9 +1,5 @@
-/* import font(s) */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
-
-
-/* reset */
 *{
   margin: 0;
   padding: 0;
@@ -13,7 +9,6 @@
   font-family: 'Work Sans', sans-serif;
 }
 
-/* root variables */
 :root{
   --color-white: #fff;
   --color-black: #191a23;
@@ -43,7 +38,7 @@ button{
   vertical-align: middle;
 }
 
-/* utilities */
+/* UTILITIES */
 .navbar nav ul a.active{/* special utility to show orange on the section the user is on (home, teacher etc) */
   color: var(--color-orange);
 }
@@ -94,8 +89,7 @@ div.section-header{
 .section-header .heading{
   margin-bottom: 1em;
 }
-/* end utilities */
-
+/* end UTILITIES */
 
 body{
   font-family: 'Work Sans', sans-serif;
@@ -108,8 +102,7 @@ body{
 
 }
 
-
-/* header*/
+/* HEADER*/
 /* sub-navbar */
 div.sub-navbar{
     padding: 1em;
@@ -261,7 +254,6 @@ div.navbar{
   visibility: hidden;
   -webkit-transition:  all 0.3s ease;
   transition:  all 0.3s ease;
-
 }
 
 .nav-items .dropdown-content a{
@@ -314,11 +306,10 @@ div.navbar{
 .navbar .join-now i{
     margin-right: 1em;
 }
+/* end HEADER*/
 
-/* end header*/
 
-
-/* hero */
+/* HERO*/
 .showcase{
   position: relative;
   height: 100vh;
@@ -356,7 +347,6 @@ div.navbar{
   height: 100%;
   background-color: var(--color-black);
   background-color: rgba(0, 0, 0, 0.5);
-
 }
 
 .showcase .content{
@@ -385,9 +375,10 @@ div.navbar{
 .content i{
   margin-left: 0.5em;
 }
-/* end hero */
+/* end HERO*/
 
-/* about section */
+
+/* ABOUT SECTION */
 section.about{
   display: flex;
   justify-content: center;
@@ -427,10 +418,10 @@ div.about-container{
   margin-bottom: 1.5em;
   font-size: 1em;
 }
-/* end about section */
+/* end ABOUT SECTION */
 
 
-/* subjects */
+/* SUBJECTS*/
 section.subjects{
   display: flex;
   flex-direction: column;
@@ -439,15 +430,10 @@ section.subjects{
   margin-left: 2em;
   margin-right: 2em;
 }
+/* end SUBJECTS */
 
 
-
-
-
-/* end subjects */
-
-
-/* courses section */
+/* COURSES SECTION */
 section.courses{
   margin: 4em;
   margin-top: 0;
@@ -488,6 +474,7 @@ div.courses-flex-container{
 .courses-card:hover .courses-card-text-container .sup{
   color:  var(--color-orange);
 }
+/* end hover effect */
 
 .courses-card img{
   width: 100%;
@@ -561,11 +548,11 @@ div.courses-card-text-container{
   justify-content: space-between;
   align-items: center;
 }
-/* end courses scetiob*/
+/* end COURSES SECTION*/
 
 
 
-/* need courses*/
+/*  NEED ANY COURSES SECTION*/
 section.need-any-courses-container{
   margin-top: 0;
   margin-bottom: 7em;
@@ -588,7 +575,6 @@ section.need-any-courses-container{
   padding-left: 4em;
   padding-right: 4em;
 }
-
 
 .need-any-courses .need-any-courses-text-container{
   width: 50%;
@@ -613,7 +599,6 @@ line-height: 1.3em;
   margin-right: 0.5em;
 }
 
-
 .need-any-courses form{
   width: 40%;
   background-color: var(--color-orange);
@@ -632,7 +617,6 @@ line-height: 1.3em;
   border-radius: 8px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
-
 }
 
 .form-body{
@@ -687,13 +671,13 @@ line-height: 1.3em;
   margin-right: 0.5em;
   font-size: 0.9em;
 }
-/* end need courses */
+/* end NEED ANY COURSES*/
 
 
 
 
 
-/* tecahers section*/
+/* TEACHERS SECTION*/
 section.teachers{
   margin: 4em;
   margin-top: 0;
@@ -722,27 +706,6 @@ section.teachers{
   display: block;
 }
 
-/* .teachers-card img::before{
-  position: absolute;
-  min-width: 100%;
-  min-height: 100%;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(68, 66, 90, 0.8);
-  transition: .5s;
-  z-index: 10000;
-  opacity: 1;
-}
-
-
-.teachers-card:hover {
-  color: red;
-}
- */
-
 .teachers-text-container{
   background-color: var(--color-lighter-grey);
   display: flex;
@@ -764,13 +727,13 @@ section.teachers{
   font-size: 1em;
   color: var(--color-light-grey);
 }
-/* end teachers section*/
+/* end TEACHERS SECTION*/
 
 
 
 
 
-/* footer*/
+/* FOOTER*/
 /* footer container */
 footer{
   background-color: var(--color-black);
@@ -943,6 +906,7 @@ footer{
   gap: 2em;
 }
 /* end footer navbar */
+/* end FOOTER */
 
 
 
@@ -1023,7 +987,6 @@ button.animate i {
 
 /* Overlay temporary position */
 .overlay{
-
   position: fixed;
   display: none;
   background-color: var(--color-black);
@@ -1039,12 +1002,9 @@ button.animate i {
   transition: all 0.5s ease-in;
 }
 
-
-
 .overlay.open{
   transform: translateX(0);
 }
-
 
 /* overlay styling */
 .overlay-header{
@@ -1128,7 +1088,6 @@ button.animate i {
   visibility: hidden;
   -webkit-transition:  all 0.3s ease;
   transition:  all 0.3s ease;
-
 }
 
 .overlay .dropdown-content a{
