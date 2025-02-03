@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); /* change font family to poppins or monospace */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+ /* change font family to poppins or monospace */
 
 
 *{
@@ -80,7 +81,7 @@ input:focus{
 
 .sub-heading{
   font-size: 2.5em;
-  font-weight: 900;
+  font-weight: 900 !important;
 }
 
 div.section-header{
@@ -498,7 +499,7 @@ div.courses-card-text-container{
   border-bottom-right-radius: 8px;
   width: 100%;
   min-height: 200px;
-  max-height: 200px;
+  max-height: 250px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   overflow: hidden;
