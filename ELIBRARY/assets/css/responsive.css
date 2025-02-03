@@ -86,6 +86,8 @@
       width: 100%;
       display: block;
       line-height: 2em;
+      padding-left: 1em;
+      padding-right: 1em;
     }
   
   .content h5{
@@ -128,16 +130,27 @@
 /* end ABOUT SECTION */
 
 
+/* SUBJECTS SECTION */
+@media (max-width: 1024px){
+  section.subjects{
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
+/* end SUBJECTS SECTION */
+
 /* COURSES SECTION */
 @media (max-width: 1024px){
   section.courses{
-    margin-left: 2.5em;
-    margin-right: 2.5em;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 
   div.courses-flex-container{
     display: flex;
     flex-direction: column;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
   }
 
   .courses-card:hover{
