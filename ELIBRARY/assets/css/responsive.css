@@ -160,12 +160,15 @@
   .courses-card:hover .courses-card-text-container{
     background-color: var(--color-lighter-grey);
     color: var(--color-black);
-  }.courses-card:hover .courses-card-text-container .sub{
+  }
+  .courses-card:hover .courses-card-text-container .sub{
     color:  var(--color-light-grey)
   }
-
   .courses-card:hover .courses-card-text-container a{
     color:  var(--color-black);
+  }
+  .courses-card:hover .courses-card-text-container .sup{
+    color:  var(--color-light-grey);
   }
   
 }
