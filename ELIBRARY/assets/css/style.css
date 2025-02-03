@@ -82,6 +82,7 @@ input:focus{
 
 .sub-heading{
   font-size: 2.5em;
+  line-height: 1em;
   font-weight: 900 !important;
 }
 
