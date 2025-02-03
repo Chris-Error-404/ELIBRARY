@@ -799,9 +799,26 @@ section.testimonials .testimonial-card i{
   color: var(--color-light-grey);
 }
 
+.testimonials .slide-pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  padding: 1.5em;
+}
 
+.testimonials .slide-pagination i{
+  font-size: 1.5em;
+  transition: all 0.3s ease;
+}
 
+.testimonials .slide-pagination i.active{
+  color: var(--color-orange);
+}
 
+.testimonials .slide-pagination i:hover{
+  color: var(--color-orange);
+}
 
 /* FOOTER*/
 /* footer container */
