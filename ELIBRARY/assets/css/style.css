@@ -12,6 +12,8 @@
 :root{
   --color-white: #fff;
   --color-black: #191a23;
+  --color-light-black: #252634;
+  --color-input-focus: #dee4ff;
   --color-light-grey: #6C6A74;
   --color-lighter-grey: #f2f2f8;
   --color-orange: #FF6600;
@@ -36,6 +38,10 @@ ul {
 
 button{
   vertical-align: middle;
+}
+
+input:focus{
+  background-color: var(--color-input-focus);
 }
 
 /* UTILITIES */
@@ -556,8 +562,7 @@ div.courses-card-text-container{
 section.need-any-courses-container{
   margin-top: 0;
   margin-bottom: 7em;
- /*  background-color: var(--color-black); */
-  background-image: url(/assets/img/registration-fix-bg.jpeg);
+  background-image: url(/assets/img/registration-fix-bg.jpeg); /* url prone to error due to directory */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -662,8 +667,8 @@ line-height: 1.3em;
   cursor: pointer;
 }
 .form-body button:hover{
-  background-color: var(--color-white);
-  color: var(--color-black);
+  background-color:  var(--color-light-black);
+  color: var(--color-white);
   border: none;
 }
 
