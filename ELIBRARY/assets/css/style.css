@@ -746,6 +746,12 @@ section.testimonials{
   margin-bottom: 10em;
 }
 
+section.testimonials i{
+  font-size: 4em;
+  color: var(--color-orange);
+  margin-top: 0.5em;
+}
+
 
 
 
@@ -830,12 +836,6 @@ footer{
   width: 60%;
 }
 
-.footer-container .newsletter button{
-  vertical-align: middle;
-  padding: 1.5em;
-  border: none;
-  border-radius: 8px
-}
 
 .footer-container .newsletter input{
   border-top-right-radius: 0px;
@@ -852,6 +852,12 @@ footer{
 }
 
 .footer-container .newsletter button{
+  vertical-align: middle;
+  padding: 1.5em;
+  border: none;
+  font-weight: 600;
+  border-radius: 8px;
+
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0;
   background-color: var(--color-orange);
