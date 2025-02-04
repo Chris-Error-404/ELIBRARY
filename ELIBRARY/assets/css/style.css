@@ -420,12 +420,13 @@ div.about-container{
   max-width: 90%;
 }
 
+.about-text-container{
+  width: 60%;
+}
+
 .about-container img{
   max-width: 40%;
   border-radius: 8px;
-}
-.about-text-container{
-  width: 60%;
 }
 
 .about-text-container i{
