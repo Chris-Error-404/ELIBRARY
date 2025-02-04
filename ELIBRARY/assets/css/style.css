@@ -29,6 +29,15 @@ html {
   scroll-behavior: smooth; /* Enables smooth scrolling across the site */
 }
 
+body{
+  font-family: 'Poppins', sans-serif;
+  color: var(--color-black);
+  background-color: var(--color-white);
+  line-height: 1.5em;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
 a{
   text-decoration: none;
   -webkit-transition: all 0.3s ease;
@@ -109,14 +118,6 @@ div.section-header{ /* div containing first and second section heading */
 }
 /* end UTILITIES */
 
-body{
-  font-family: 'Poppins', sans-serif;
-  color: var(--color-black);
-  background-color: var(--color-white);
-  line-height: 1.5em;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
 
 /* HEADER*/
 /* sub-navbar */
