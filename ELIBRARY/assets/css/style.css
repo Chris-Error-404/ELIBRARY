@@ -1139,6 +1139,10 @@ button.animate i {
   padding-right: 0;
 }
 
+.overlay .mobile-nav-items-container a.active{
+  color: var(--color-orange);
+}
+
 .overlay .mobile-nav-items-container ul{
   display: flex;
   flex-direction: column;
