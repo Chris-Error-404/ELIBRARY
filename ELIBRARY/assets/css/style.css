@@ -212,11 +212,11 @@ div.navbar{
   letter-spacing: -0.15em; /* to make logo text more compact */
 }
 
-.navbar .logo-text span{
+.navbar .logo-text span{ /* for the "E" in E library */
   color: var(--color-orange);
 }
 
-.navbar .logo-text a{
+.navbar .logo-text a{ /* check utilities for active styling */
   color: var(--color-black);
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -261,7 +261,7 @@ div.navbar{
     color: var(--color-orange);
 }
 
-.dropdown-content{
+.nav-items .dropdown-content{
   display: none;
   position: absolute;
   background-color: var(--color-white);
