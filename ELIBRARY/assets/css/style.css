@@ -25,6 +25,10 @@
 }
 
 /* global css */
+html {
+  scroll-behavior: smooth; /* Enables smooth scrolling across the site */
+}
+
 a{
   text-decoration: none;
   -webkit-transition: all 0.3s ease;
