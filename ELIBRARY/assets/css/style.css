@@ -208,6 +208,8 @@ div.navbar{
 
 .navbar .logo-text{
   font-size: 1em;
+  font-weight: 900;
+  letter-spacing: -0.15em; /* to make logo text more compact */
 }
 
 .navbar .logo-text span{
@@ -788,6 +790,7 @@ section.testimonials .testimonial-card i{
 }
 .testimonial-card .testimonial-card-top p{
   font-size: 1.5em;
+  line-height: 1.1em;
 }
 
 .testimonial-card .testimonial-card-bottom{
@@ -844,6 +847,7 @@ footer{
   padding: 4em;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
   align-items: start;
 }
 
