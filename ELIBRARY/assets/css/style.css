@@ -116,6 +116,129 @@ div.section-header{ /* div containing first and second section heading */
   margin-bottom: 2.5em;
   margin-top: 2em;
 }
+
+/* OVERLAY */
+.overlay{
+  position: fixed;
+  display: none;
+  background-color: var(--color-black);
+  width: 80%;
+  position: fixed;
+  z-index:10;
+  transform: translateX(100%); /* makes it open from the left to the right*/
+  height: 100%;
+  min-height: 100vh;
+  top: 0;
+  right: 0;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+.overlay.open{
+  transform: translateX(0);
+}
+
+/* overlay styling */
+.overlay-header{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 1em;
+}
+
+.overlay button{
+  background-color: var(--color-black);
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.overlay a{
+  color: var(--color-white);
+  font-weight: 800;
+}
+
+.overlay .overlay-header i{
+  color: var(--color-white);
+  font-size: 2.5em;
+  font-weight: 700;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.overlay .overlay-header i:hover{
+  color: var(--color-orange);
+}
+.overlay .overlay-header i:active{
+  color: var(--color-orange);
+}
+.overlay .overlay-header i:focus{
+  color: var(--color-orange);
+}
+
+.overlay .mobile-nav-items-container{
+  padding: 1.5em;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.overlay .mobile-nav-items-container a.active{
+  color: var(--color-orange);
+}
+
+.overlay .mobile-nav-items-container ul{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  font-size: 1.2em;
+}
+
+.overlay .mobile-nav-items-container li{
+  padding: 0.3em;
+  padding-left: 1.5em;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.overlay .mobile-nav-items-container li:hover .mobile-nav-items-container a {
+  color: var(--color-orange);
+}
+
+.overlay .mobile-nav-items-container .dropdown i{
+  margin-left: 0.5em;
+}
+
+.overlay .dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: var(--color-black);
+  color: var(--color-light-grey);
+  padding: 0.9375em; /* 15px */
+  box-shadow: 0 0.3125em 0.625em rgba(0, 0, 0, 0.3); /* 5px 10px */
+  border-radius: 0.3125em; /* 5px */
+  z-index: 1000;
+  min-width: 12.5em;
+  opacity: 0;
+  transform: translateY(-10px);
+  visibility: hidden;
+  -webkit-transition:  all 0.3s ease;
+  transition:  all 0.3s ease;
+}
+
+.overlay .dropdown-content a{
+  display: block; /* make the links blocks */
+  color: var(--color-lighter-grey);
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.overlay .dropdown:hover .overlay .dropdown-content{
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 2.5em;
+}
+/* end OVERLAY */
 /* end UTILITIES */
 
 
@@ -471,7 +594,7 @@ section.courses{
 
 section.courses i{
   color: var(--color-orange);
-  margin-right: 0.5em;
+  margin-right: 0.5em; /* for spacing icon */
 }
 
 div.courses-flex-container{
@@ -502,7 +625,7 @@ div.courses-card-text-container{
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   width: 100%;
-  min-height: 200px;
+  min-height: 200px; /* adjust incase courses card text doesnot fit */
   max-height: 250px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -548,7 +671,7 @@ div.courses-card-text-container{
   padding: 2em;
   padding-top: 1em;
   padding-bottom: 1em;
-  border-top: 1px solid #a2a2a5;
+  border-top: 1px solid #a2a2a5; /*unnique color */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -699,8 +822,6 @@ line-height: 1.3em;
   font-size: 0.9em;
 }
 /* end NEED ANY COURSES*/
-
-
 
 
 
@@ -1088,131 +1209,6 @@ button.animate i {
 
 /*# sourceMappingURL=style.css.map */
 /* end button and a tag animation */
-
-
-
-/* OVERLAY */
-.overlay{
-  position: fixed;
-  display: none;
-  background-color: var(--color-black);
-  width: 80%;
-  position: fixed;
-  z-index:10;
-  transform: translateX(100%); /* makes it open from the left to the right*/
-  height: 100%;
-  min-height: 100vh;
-  top: 0;
-  right: 0;
-  -webkit-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
-}
-
-.overlay.open{
-  transform: translateX(0);
-}
-
-/* overlay styling */
-.overlay-header{
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  padding: 1em;
-}
-
-.overlay button{
-  background-color: var(--color-black);
-  outline: none;
-  border: none;
-  cursor: pointer;
-}
-.overlay a{
-  color: var(--color-white);
-  font-weight: 800;
-}
-
-.overlay .overlay-header i{
-  color: var(--color-white);
-  font-size: 2.5em;
-  font-weight: 700;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-.overlay .overlay-header i:hover{
-  color: var(--color-orange);
-}
-.overlay .overlay-header i:active{
-  color: var(--color-orange);
-}
-.overlay .overlay-header i:focus{
-  color: var(--color-orange);
-}
-
-.overlay .mobile-nav-items-container{
-  padding: 1.5em;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.overlay .mobile-nav-items-container a.active{
-  color: var(--color-orange);
-}
-
-.overlay .mobile-nav-items-container ul{
-  display: flex;
-  flex-direction: column;
-  gap: 1.5em;
-  font-size: 1.2em;
-}
-
-.overlay .mobile-nav-items-container li{
-  padding: 0.3em;
-  padding-left: 1.5em;
-  cursor: pointer;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-.overlay .mobile-nav-items-container li:hover .mobile-nav-items-container a {
-  color: var(--color-orange);
-}
-
-.overlay .mobile-nav-items-container .dropdown i{
-  margin-left: 0.5em;
-}
-
-.overlay .dropdown-content{
-  display: none;
-  position: absolute;
-  background-color: var(--color-black);
-  color: var(--color-light-grey);
-  padding: 0.9375em; /* 15px */
-  box-shadow: 0 0.3125em 0.625em rgba(0, 0, 0, 0.3); /* 5px 10px */
-  border-radius: 0.3125em; /* 5px */
-  z-index: 1000;
-  min-width: 12.5em;
-  opacity: 0;
-  transform: translateY(-10px);
-  visibility: hidden;
-  -webkit-transition:  all 0.3s ease;
-  transition:  all 0.3s ease;
-}
-
-.overlay .dropdown-content a{
-  display: block; /* make the links blocks */
-  color: var(--color-lighter-grey);
-  font-size: 1em;
-  font-weight: 400;
-}
-
-.overlay .dropdown:hover .overlay .dropdown-content{
-  display: flex;
-  flex-direction: column;
-  gap: 2em;
-  padding: 2.5em;
-}
-/* end OVERLAY */
 
 
 
