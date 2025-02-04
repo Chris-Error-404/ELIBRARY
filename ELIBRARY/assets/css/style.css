@@ -1,5 +1,8 @@
+/* import Popppins font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
+
+/* all/reset */
 *{
   margin: 0;
   padding: 0;
@@ -52,7 +55,7 @@ input:focus{
 .btn{  /* can't be used for footer newslwtter sign up button */
   background-color: var(--color-orange);
   color: var(--color-white);
-  border: none;
+  border: none !important;
   border-radius: 5px;
   vertical-align: middle;
   padding-top: 0.9em;
