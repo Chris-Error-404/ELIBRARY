@@ -386,12 +386,13 @@ div.navbar{
 .content h5{
   font-size: 1.25em;
   font-weight: 500;
-  margin-bottom: 0.3em;
+  margin-bottom: 0.3em; /* make-shift spacing for hero */
 }
 
 .content h1{
   font-size: 4em;
-  margin-bottom: 0.3em;
+  margin-bottom: 0.3em; /* make-shift spacing for hero */
+  margin-bottom: 0.3em; 
   line-height: 1.3em;
 }
 
