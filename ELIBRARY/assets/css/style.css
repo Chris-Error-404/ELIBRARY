@@ -663,19 +663,6 @@ div.courses-card-text-container{
   font-weight: 600;
   color: var(--color-black);
 }
-.courses-card-text-container .card-middle a:hover{
-  color: var(--color-orange);
-}
-
-.courses-card-text-container .card-bottom{
-  padding: 2em;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  border-top: 1px solid #a2a2a5; /*unnique color */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 /* hover effect*/
 .courses-card:hover{
@@ -697,7 +684,24 @@ div.courses-card-text-container{
 .courses-card:hover .courses-card-text-container .sub{
   color:  var(--color-lighter-grey)
 }
-/* end hover effect */
+/* end hover effect */ 
+
+/* hover effect needs to be before this */
+.courses-card-text-container .card-middle a:hover{
+  color: var(--color-orange);
+}
+
+.courses-card-text-container .card-bottom{
+  padding: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-top: 1px solid #a2a2a5; /*unnique color */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 /* end COURSES SECTION*/
 
 
