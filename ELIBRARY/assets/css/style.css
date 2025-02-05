@@ -211,8 +211,9 @@ div.section-header{ /* div containing first and second section heading */
 .overlay .dropdown-content{
   display: none;
   position: absolute;
-  background-color: var(--color-black);
-  color: var(--color-light-grey);
+  background-color: var(--color-orange);
+  color: var(--color-black); /* works only for the li no a tag */
+  margin-top: 1em;
   padding: 0.9375em; /* 15px */
   box-shadow: 0 0.3125em 0.625em rgba(0, 0, 0, 0.3); /* 5px 10px */
   border-radius: 0.3125em; /* 5px */
@@ -223,21 +224,25 @@ div.section-header{ /* div containing first and second section heading */
   visibility: hidden;
   -webkit-transition:  all 0.3s ease;
   transition:  all 0.3s ease;
+  margin-left: 1em;
+}
+
+.overlay .dropdown:hover .dropdown-content{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em;
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
 }
 
 .overlay .dropdown-content a{
-  display: block; /* make the links blocks */
-  color: var(--color-lighter-grey);
-  font-size: 1em;
-  font-weight: 400;
+  color: var(--color-white);
 }
 
-.overlay .dropdown:hover .overlay .dropdown-content{
-  display: flex;
-  flex-direction: column;
-  gap: 2em;
-  padding: 2.5em;
-}
+
+
 /* end OVERLAY */
 /* end UTILITIES */
 
