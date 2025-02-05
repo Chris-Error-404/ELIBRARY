@@ -176,7 +176,7 @@ div.section-header{ /* div containing first and second section heading */
 }
 
 .overlay .mobile-nav-items-container{
-  padding: 1.5em;
+  padding: 1em;
   padding-left: 0;
   padding-right: 0;
 }
@@ -188,7 +188,7 @@ div.section-header{ /* div containing first and second section heading */
 .overlay .mobile-nav-items-container ul{
   display: flex;
   flex-direction: column;
-  gap: 1.5em;
+  gap: 1em;
   font-size: 1.2em;
 }
 
