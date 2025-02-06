@@ -846,42 +846,66 @@ section.teachers{
   display: flex;
   gap: 1em;
 }
-
-.teachers-card{
+.teachers-card {
+  position: relative;
   display: flex;
   flex-direction: column;
   cursor: pointer;
+  overflow: hidden;
 }
 
-.teachers-card img{
+.teachers-card img {
   max-width: 100%;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   display: block;
+  transition: 0.3s ease-in-out;
 }
 
-.teachers-text-container{
-  background-color: var(--color-lighter-grey);
+.teachers-socials {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5em;
-  padding: 1.5em;
-  width: 100%;
-  max-width: 100%;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
+  gap: 10px;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
 }
 
-.teachers-text-container h1{
-  font-size: 1.1em;
+.teachers-socials a {
+  color: white;
+  font-size: 1.2em;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 50%;
+  transition: 0.3s;
 }
-.teachers-text-container p{
-  font-size: 1em;
-  color: var(--color-light-grey);
+
+.teachers-socials a:hover {
+  background: rgba(0, 0, 0, 0.9);
 }
-/* end TEACHERS SECTION*/
+
+/* Overlay effect */
+.teachers-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.teachers-card:hover::before {
+  opacity: 1;
+}
+
+.teachers-card:hover .teachers-socials {
+  opacity: 1;
+}
 
 
 /* TESTIMONIALS SECTION */
