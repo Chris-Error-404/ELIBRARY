@@ -862,6 +862,16 @@ section.teachers{
   transition: 0.3s ease-in-out;
 }
 
+.teachers-card .teachers-text-container{
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  background-color: var(--color-lighter-grey);
+}
+
 .teachers-socials {
   position: absolute;
   top: 50%;
