@@ -873,6 +873,8 @@ section.teachers{
   transition: 0.3s ease-in-out;
 }
 
+
+
 .teachers-socials a {
   color: white;
   font-size: 1.2em;
@@ -884,6 +886,7 @@ section.teachers{
 
 .teachers-socials a:hover {
   background: rgba(0, 0, 0, 0.9);
+  color: var(--color-orange);
 }
 
 /* Overlay effect */
@@ -897,6 +900,9 @@ section.teachers{
   background: rgba(0, 0, 0, 0.5);
   opacity: 0;
   transition: 0.3s ease-in-out;
+  border-radius: 8px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .teachers-card:hover::before {
