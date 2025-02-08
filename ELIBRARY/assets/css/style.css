@@ -874,6 +874,15 @@ section.teachers{
   border-bottom-right-radius: 8px;
 }
 
+.teachers-card .teachers-text-container h1{
+  font-size: 1.2em;
+  font-weight: 800;
+}
+.teachers-card .teachers-text-container p{
+  font-size: 1em;
+  font-weight: 500;
+}
+
 .teachers-socials {
   position: absolute;
   top: 50%;
@@ -918,8 +927,8 @@ section.teachers{
   opacity: 0;
   transition: 0.3s ease-in-out;
   border-radius: 8px;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+/*   border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0; */
 }
 
 .teachers-card:hover::before {
