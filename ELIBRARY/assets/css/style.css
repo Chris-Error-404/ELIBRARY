@@ -580,6 +580,17 @@ section.subjects{
   margin-left: 2em;
   margin-right: 2em;
 }
+
+.subjects-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  gap: 1.5em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 1.5em;
+}
 /* end SUBJECTS */
 
 
@@ -1278,4 +1289,35 @@ button.animate i {
 /* end button and a tag animation */
 
 
+.cat-item {
+  position: relative;
+  width: 250px; /* Adjust as needed */
+  height: 150px; /* Adjust as needed */
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url('/assets/img/cat-1-fix.jpg') center/100% no-repeat;
+  background-size: 110%;
+  transition: background-size 0.5s ease-in-out;
+}
 
+
+.cat-item:hover {
+  background-size: 150%; /* Zoom effect on background image */
+}
+
+.cat-item a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.cat-item h4{
+  font-size: 1.5em;
+}
