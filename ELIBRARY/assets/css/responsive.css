@@ -132,6 +132,20 @@
     margin-left: 1em;
     margin-right: 1em;
   }
+
+  .subjects-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 2em 1.5em 2em;
+  }
+
+  
+.cat-item {
+  position: relative;
+  width: 350px; /* Adjust as needed */
+  height: 200px; /* Adjust as needed */
+}
+
 }
 /* end SUBJECTS SECTION */
 
