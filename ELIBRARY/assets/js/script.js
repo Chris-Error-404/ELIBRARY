@@ -25,7 +25,6 @@ document.addEventListener('click', (e) => {
 });
 
 
-
 //LI AND A TAG ACTIVATION SCRIPT
 // Select all the <li> elements
 const listItems = document.querySelectorAll('li');
