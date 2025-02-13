@@ -582,14 +582,10 @@ section.subjects{
 }
 
 .subjects-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  vertical-align: middle;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
   gap: 1.5em;
-  margin-left: 2em;
-  margin-right: 2em;
-  margin-bottom: 1.5em;
+  margin: 0 2em 1.5em 2em;
 }
 /* end SUBJECTS */
 
@@ -1303,6 +1299,14 @@ button.animate i {
   transition: background-size 0.5s ease-in-out;
 }
 
+.cat-item:nth-child(1) { background-image: url('/assets/img/cat-1-fix.jpg'); }
+.cat-item:nth-child(2) { background-image: url('/assets/img/cat-2-fix.jpg'); }
+.cat-item:nth-child(3) { background-image: url('/assets/img/cat-3.jpg'); }
+.cat-item:nth-child(4) { background-image: url('/assets/img/cat-4.jpg'); }
+.cat-item:nth-child(5) { background-image: url('/assets/img/cat-5.jpg'); }
+.cat-item:nth-child(6) { background-image: url('/assets/img/cat-6.jpg'); }
+.cat-item:nth-child(7) { background-image: url('/assets/img/cat-7.jpg'); }
+.cat-item:nth-child(8) { background-image: url('/assets/img/cat-8.jpg'); }
 
 .cat-item:hover {
   background-size: 150%; /* Zoom effect on background image */
