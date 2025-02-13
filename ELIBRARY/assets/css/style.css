@@ -587,6 +587,47 @@ section.subjects{
   gap: 1.5em;
   margin: 0 2em 1.5em 2em;
 }
+
+.cat-item {
+  position: relative;
+  width: 250px; /* Adjust as needed */
+  height: 150px; /* Adjust as needed */
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url('/assets/img/cat-1-fix.jpg') center/100% no-repeat;
+  background-size: 110%;
+  transition: background-size 0.5s ease-in-out;
+}
+
+.cat-item:nth-child(1) { background-image: url('/assets/img/cat-1-fix.jpg'); }
+.cat-item:nth-child(2) { background-image: url('/assets/img/cat-2-fix.jpg'); }
+.cat-item:nth-child(3) { background-image: url('/assets/img/cat-3.jpg'); }
+.cat-item:nth-child(4) { background-image: url('/assets/img/cat-4.jpg'); }
+.cat-item:nth-child(5) { background-image: url('/assets/img/cat-5.jpg'); }
+.cat-item:nth-child(6) { background-image: url('/assets/img/cat-6.jpg'); }
+.cat-item:nth-child(7) { background-image: url('/assets/img/cat-7.jpg'); }
+.cat-item:nth-child(8) { background-image: url('/assets/img/cat-8.jpg'); }
+
+.cat-item:hover {
+  background-size: 150%; /* Zoom effect on background image */
+}
+
+.cat-item a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.cat-item h4{
+  font-size: 1.5em;
+}
 /* end SUBJECTS */
 
 
@@ -674,9 +715,9 @@ div.courses-card-text-container{
 }
 
 /* hover effect*/
-.courses-card:hover{
+/* .courses-card:hover{
   transform: scale(1.05);
-}
+} */
 
 .courses-card:hover .courses-card-text-container{
   background-color: var(--color-black);
@@ -1319,8 +1360,8 @@ button.animate i {
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: all 0.3s ease;
 }
-
 
 .cat-item h4{
   font-size: 1.5em;
