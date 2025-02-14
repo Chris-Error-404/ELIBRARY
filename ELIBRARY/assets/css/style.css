@@ -588,7 +588,7 @@ section.subjects{
   margin: 0 2em 1.5em 2em;
 }
 
-.cat-item {
+.subject-card {
   position: relative;
   width: 250px; /* Adjust as needed */
   height: 150px; /* Adjust as needed */
@@ -602,20 +602,20 @@ section.subjects{
   transition: background-size 0.5s ease-in-out;
 }
 
-.cat-item:nth-child(1) { background-image: url('/assets/img/cat-1-fix.jpg'); }
-.cat-item:nth-child(2) { background-image: url('/assets/img/cat-2-fix.jpg'); }
-.cat-item:nth-child(3) { background-image: url('/assets/img/cat-3.jpg'); }
-.cat-item:nth-child(4) { background-image: url('/assets/img/cat-4.jpg'); }
-.cat-item:nth-child(5) { background-image: url('/assets/img/cat-5.jpg'); }
-.cat-item:nth-child(6) { background-image: url('/assets/img/cat-6.jpg'); }
-.cat-item:nth-child(7) { background-image: url('/assets/img/cat-7.jpg'); }
-.cat-item:nth-child(8) { background-image: url('/assets/img/cat-8.jpg'); }
+.subject-card:nth-child(1) { background-image: url('/assets/img/cat-1-fix.jpg'); }
+.subject-card:nth-child(2) { background-image: url('/assets/img/cat-2-fix.jpg'); }
+.subject-card:nth-child(3) { background-image: url('/assets/img/cat-3.jpg'); }
+.subject-card:nth-child(4) { background-image: url('/assets/img/cat-4.jpg'); }
+.subject-card:nth-child(5) { background-image: url('/assets/img/cat-5.jpg'); }
+.subject-card:nth-child(6) { background-image: url('/assets/img/cat-6.jpg'); }
+.subject-card:nth-child(7) { background-image: url('/assets/img/cat-7.jpg'); }
+.subject-card:nth-child(8) { background-image: url('/assets/img/cat-8.jpg'); }
 
-.cat-item:hover {
+.subject-card:hover {
   background-size: 150%; /* Zoom effect on background image */
 }
 
-.cat-item a {
+.subject-card a {
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -625,7 +625,7 @@ section.subjects{
   transition: all 0.3s ease;
 }
 
-.cat-item h4{
+.subject-card h4{
   font-size: 1.5em;
 }
 /* end SUBJECTS */
@@ -976,7 +976,7 @@ section.teachers{
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(25, 26, 35, 0.5);
   opacity: 0;
   transition: 0.3s ease-in-out;
   border-radius: 8px;
@@ -1326,9 +1326,9 @@ button.animate i {
 /* end button and a tag animation */
 
 
-.cat-item {
+.subject-card {
   position: relative;
-  width: 250px; /* Adjust as needed */
+  width: 230px; /* Adjust as needed */
   height: 150px; /* Adjust as needed */
   border-radius: 10px;
   display: flex;
@@ -1340,20 +1340,20 @@ button.animate i {
   transition: background-size 0.5s ease-in-out;
 }
 
-.cat-item:nth-child(1) { background-image: url('/assets/img/cat-1-fix.jpg'); }
-.cat-item:nth-child(2) { background-image: url('/assets/img/cat-2-fix.jpg'); }
-.cat-item:nth-child(3) { background-image: url('/assets/img/cat-3.jpg'); }
-.cat-item:nth-child(4) { background-image: url('/assets/img/cat-4.jpg'); }
-.cat-item:nth-child(5) { background-image: url('/assets/img/cat-5.jpg'); }
-.cat-item:nth-child(6) { background-image: url('/assets/img/cat-6.jpg'); }
-.cat-item:nth-child(7) { background-image: url('/assets/img/cat-7.jpg'); }
-.cat-item:nth-child(8) { background-image: url('/assets/img/cat-8.jpg'); }
+.subject-card:nth-child(1) { background-image: url('/assets/img/cat-1-fix.jpg'); }
+.subject-card:nth-child(2) { background-image: url('/assets/img/cat-2-fix.jpg'); }
+.subject-card:nth-child(3) { background-image: url('/assets/img/cat-3.jpg'); }
+.subject-card:nth-child(4) { background-image: url('/assets/img/cat-4.jpg'); }
+.subject-card:nth-child(5) { background-image: url('/assets/img/cat-5.jpg'); }
+.subject-card:nth-child(6) { background-image: url('/assets/img/cat-6.jpg'); }
+.subject-card:nth-child(7) { background-image: url('/assets/img/cat-7.jpg'); }
+.subject-card:nth-child(8) { background-image: url('/assets/img/cat-8.jpg'); }
 
-.cat-item:hover {
+.subject-card:hover {
   background-size: 150%; /* Zoom effect on background image */
 }
 
-.cat-item a {
+.subject-card a {
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -1363,6 +1363,12 @@ button.animate i {
   transition: all 0.3s ease;
 }
 
-.cat-item h4{
+.subject-card h4{
   font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.subject-card span{
+  font-size: 1em;
+  font-weight: 500;
 }
