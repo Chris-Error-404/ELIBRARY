@@ -590,7 +590,7 @@ section.subjects{
 
 .subject-card {
   position: relative;
-  width: 250px; /* Adjust as needed */
+  width: 230px; /* Adjust as needed */
   height: 150px; /* Adjust as needed */
   border-radius: 10px;
   display: flex;
@@ -600,7 +600,9 @@ section.subjects{
   background: url('/assets/img/cat-1-fix.jpg') center/100% no-repeat;
   background-size: 110%;
   transition: background-size 0.5s ease-in-out;
+  cursor: pointer;
 }
+
 
 .subject-card:nth-child(1) { background-image: url('/assets/img/cat-1-fix.jpg'); }
 .subject-card:nth-child(2) { background-image: url('/assets/img/cat-2-fix.jpg'); }
@@ -1324,51 +1326,3 @@ button.animate i {
 
 /*# sourceMappingURL=style.css.map */
 /* end button and a tag animation */
-
-
-.subject-card {
-  position: relative;
-  width: 230px; /* Adjust as needed */
-  height: 150px; /* Adjust as needed */
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background: url('/assets/img/cat-1-fix.jpg') center/100% no-repeat;
-  background-size: 110%;
-  transition: background-size 0.5s ease-in-out;
-}
-
-.subject-card:nth-child(1) { background-image: url('/assets/img/cat-1-fix.jpg'); }
-.subject-card:nth-child(2) { background-image: url('/assets/img/cat-2-fix.jpg'); }
-.subject-card:nth-child(3) { background-image: url('/assets/img/cat-3.jpg'); }
-.subject-card:nth-child(4) { background-image: url('/assets/img/cat-4.jpg'); }
-.subject-card:nth-child(5) { background-image: url('/assets/img/cat-5.jpg'); }
-.subject-card:nth-child(6) { background-image: url('/assets/img/cat-6.jpg'); }
-.subject-card:nth-child(7) { background-image: url('/assets/img/cat-7.jpg'); }
-.subject-card:nth-child(8) { background-image: url('/assets/img/cat-8.jpg'); }
-
-.subject-card:hover {
-  background-size: 150%; /* Zoom effect on background image */
-}
-
-.subject-card a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  transition: all 0.3s ease;
-}
-
-.subject-card h4{
-  font-size: 1.5em;
-  margin-bottom: 0.5em;
-}
-
-.subject-card span{
-  font-size: 1em;
-  font-weight: 500;
-}
