@@ -114,7 +114,7 @@ div.section-header{ /* div containing first and second section heading */
   align-items: center;
   padding: 1em;
   margin-bottom: 2.5em;
-  margin-top: 2em;
+/*   margin-top: 2em; */
 }
 
 /* OVERLAY */
@@ -532,9 +532,9 @@ section.about{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 4em;
-  margin-top: 8em;
-  margin-bottom: 10em;
+/*   margin: 4em;
+  margin-top: 8em; */
+  /* margin-bottom: 10em; */
 }
 
 div.about-container{
@@ -542,7 +542,9 @@ div.about-container{
   justify-content: center;
   align-items: center;
   gap: 2em;
-  max-width: 90%;
+/*   max-width: 90%;
+  width: 90%; */
+  width: 100%;
 }
 
 .about-text-container{
@@ -577,15 +579,17 @@ section.subjects{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 2em;
-  margin-right: 2em;
+/*   margin-left: 2em;
+  margin-right: 2em; */
+  /* margin-bottom: 10em; */
+  
 }
 
 .subjects-container{
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
   gap: 1.5em;
-  margin: 0 2em 1.5em 2em;
+ /*  margin: 0 2em 1.5em 2em; */
 }
 
 .subject-card {
@@ -629,15 +633,22 @@ section.subjects{
 
 .subject-card h4{
   font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+
+.subject-card span{
+  font-size: 1em;
+  font-weight: 500;
 }
 /* end SUBJECTS */
 
 
 /* COURSES SECTION */
 section.courses{
-  margin: 4em;
-  margin-top: 0;
-  margin-bottom: 10em;
+/*   margin: 4em;
+  margin-top: 0; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -761,7 +772,7 @@ div.courses-card-text-container{
 /*  NEED ANY COURSES SECTION*/
 section.need-any-courses-container{
   margin-top: 0;
-  margin-bottom: 7em;
+/*   margin-bottom: 7em; */
   background-image: url(/assets/img/registration-fix-bg.jpeg); /* url prone to error due to directory */
   background-position: center;
   background-repeat: no-repeat;
@@ -840,7 +851,7 @@ line-height: 1.3em;
   border: none;
 }
 .form-body input::placeholder{
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 .form-body input:focus{
   outline: none;
@@ -883,9 +894,9 @@ line-height: 1.3em;
 
 /* TEACHERS SECTION*/
 section.teachers{
-  margin: 4em;
-  margin-top: 0;
-  margin-bottom: 10em;
+/*   margin: 4em;
+  margin-top: 0; */
+  /* margin-bottom: 10em; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -999,7 +1010,7 @@ section.teachers{
 section.testimonials{
   margin: 4em;
   margin-top: 0;
-  margin-bottom: 10em;
+  /* margin-bottom: 10em; */
   display: flex;
   flex-direction: column;
   justify-content: center;
