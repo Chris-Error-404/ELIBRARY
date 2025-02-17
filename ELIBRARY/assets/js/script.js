@@ -57,7 +57,7 @@ function nextSlide() {
 }
 
 // Auto-slide every 3 seconds
-setInterval(nextSlide, 3000);
+setInterval(nextSlide, 4000);
 
 // Allow manual navigation
 function prevSlide() {

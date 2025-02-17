@@ -333,8 +333,8 @@ div.navbar{
 
 .navbar .logo-text{
   font-size: 1em;
-  font-weight: 900;
-  letter-spacing: -0.15em; /* to make logo text more compact */
+  font-weight: 700;
+  letter-spacing: -0.1em; /* to make logo text more compact */
 }
 
 .navbar .logo-text span{ /* for the "E" in E library */
@@ -367,7 +367,7 @@ div.navbar{
 .navbar .nav-items a{
   color: var(--color-black);
   font-size: 1.1em;
-  font-weight: 800;
+  font-weight: 600;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -1014,86 +1014,6 @@ section.teachers{
 
 
 /* TESTIMONIALS SECTION */
-section.testimonials{
-  margin: 4em;
-  margin-top: 0;
-  /* margin-bottom: 10em; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.testimonials .testimonial-card{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 2em;
-  width: 70%;
- /*  padding: 1em; */
-/*   border: 1px solid red; */
-}
-
-section.testimonials .testimonial-card i{
-  font-size: 4em;
-  color: var(--color-orange);
-}
-
-.testimonial-card .testimonial-card-top{
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-}
-.testimonial-card .testimonial-card-top p{
-  font-size: 1.5em;
-  line-height: 1.1em;
-}
-
-.testimonial-card .testimonial-card-bottom{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1em;
-}
-
-.testimonial-card .testimonial-card-bottom img{
-  width: 70%;
-  border-radius: 80px;
-}
-
-.testimonial-card .testimonial-card-bottom h3{
-  font-weight: 600;
-}
-
-.testimonial-card .testimonial-card-bottom p{
-  font-weight: 500;
-  color: var(--color-light-grey);
-}
-
-.testimonials .slide-pagination{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5em;
-  padding: 1.5em;
-}
-
-.testimonials .slide-pagination i{
-  font-size: 1.5em;
-  transition: all 0.3s ease;
-}
-
-.testimonials .slide-pagination i.active{
-  color: var(--color-orange);
-}
-
-.testimonials .slide-pagination i:hover{
-  color: var(--color-orange);
-}
-
 .slider-container {
   width: 100%;
   overflow: hidden;
@@ -1108,7 +1028,8 @@ section.testimonials .testimonial-card i{
   width: 100%;
   flex-shrink: 0;
   padding: 2em;
-  height: 200px;
+  padding-top: 0em;
+  min-height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1118,8 +1039,61 @@ section.testimonials .testimonial-card i{
   color: var(--color-black);
 }
 
+.slide-card{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
 
-.buttons {
+.slide-card .slide-card-top{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  font-size: 1.1em;
+  line-height: 1.4em;
+  font-weight: 600;
+}
+
+.slide-card .slide-card-top i{
+  font-size: 3em;
+  color: var(--color-orange);
+}
+
+.slide-card .slide-card-bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.slide-card .slide-card-bottom img{
+  border-radius: 50%;
+  max-width: 80px;
+}
+
+.slide-card .slide-card-bottom .client-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2em;
+}
+
+.slide-card .slide-card-bottom .client-info h3{
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.slide-card .slide-card-bottom .client-info p{
+  font-size: 0.8em;
+  font-weight: 500;
+  color: var(--color-light-grey);
+}
+
+.slider-container .buttons {
   position: absolute;
   top: 50%;
   width: 100%;
@@ -1127,16 +1101,23 @@ section.testimonials .testimonial-card i{
   justify-content: space-between;
   transform: translateY(-50%);
 }
-button {
-  background: rgba(0, 0, 0, 0.5);
+
+.slider-container button {
+  background: var(--color-orange);
   color: white;
   border: none;
-  padding: 2em;
-  border-radius: 50%;
+  padding: 1.5em;
   cursor: pointer;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  transition: 0.3s ease;
 }
-button:hover {
-  background: rgba(0, 0, 0, 0.8);
+
+.slider-container button:hover {
+  background: var(--color-dark-orange);
 }
 
 /* FOOTER*/
