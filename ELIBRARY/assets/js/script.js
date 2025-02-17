@@ -52,16 +52,16 @@ function showSlide() {
 }
 
 function nextSlide() {
-    index = (index + 1) % 3;
+    index = (index + 1) % 4;
     showSlide();
 }
 
 // Auto-slide every 3 seconds
-setInterval(nextSlide, 4000);
+setInterval(nextSlide, 5000);
 
 // Allow manual navigation
 function prevSlide() {
-    index = (index - 1 + 3) % 3;
+    index = (index - 1 + 4) % 4;
     showSlide();
 }
 

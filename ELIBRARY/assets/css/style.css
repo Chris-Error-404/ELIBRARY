@@ -1056,7 +1056,7 @@ section.testimonials{
 .slides {
   display: flex;
   width: 100%;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
 .slide {
   width: 100%;
@@ -1153,7 +1153,66 @@ section.testimonials{
 
 .slider-container button:hover {
   background: var(--color-dark-orange);
+} 
+/* end TESTIMONIAK */
+
+/* BLOG*/
+section.blog{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4em;
+  margin-bottom: 8em;
 }
+
+.blog-container{
+  display: flex;
+  gap: 2em;
+}
+
+.blog-link{
+  display: block;
+}
+
+.blog-card {
+  width: 350px;
+  height: 400px;
+  background-image: url('/assets/img/blog-1.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 1em;
+  color: white;
+  font-size: 1em;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+/* Targeting blog cards inside the anchor tags */
+.blog-link:nth-child(1) .blog-card {
+  background-image: url('/assets/img/blog-1.jpg');
+}
+
+.blog-link:nth-child(2) .blog-card {
+  background-image: url('/assets/img/blog-2.jpg');
+}
+
+.blog-link:nth-child(3) .blog-card {
+  background-image: url('/assets/img/blog-3.jpg');
+}
+
+.blog-text {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 0.5em;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* end BLOG */
+
 
 /* FOOTER*/
 /* footer container */
