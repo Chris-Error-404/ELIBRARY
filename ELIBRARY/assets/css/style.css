@@ -86,7 +86,7 @@ input:focus{
   transition: all 0.3s ease;
 }
 
-.btn:hover{
+.btn:hover{ 
   background-color: var(--color-dark-orange);
 }
 
@@ -386,7 +386,7 @@ div.navbar{
     color: var(--color-orange);
 }
 
-.nav-items .dropdown-content{
+.nav-items .dropdown-content {
   display: none;
   position: absolute;
   background-color: var(--color-white);
@@ -399,18 +399,17 @@ div.navbar{
   opacity: 0;
   transform: translateY(-10px);
   visibility: hidden;
-  -webkit-transition:  all 0.3s ease;
-  transition:  all 0.3s ease;
+  transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
 }
 
-.nav-items .dropdown-content a{
-  display: block; /* amke the links blocks */
+.nav-items .dropdown-content a {
+  display: block; /* make the links blocks */
   color: var(--color-light-grey);
   font-size: 1em;
   font-weight: 400;
 }
 
-.dropdown:hover .dropdown-content{
+.dropdown:hover .dropdown-content {
   display: flex;
   flex-direction: column;
   gap: 0.5em;
@@ -418,6 +417,20 @@ div.navbar{
   opacity: 1;
   transform: translateY(0);
   visibility: visible;
+  animation: dropdownExpand 0.5s ease-in-out forwards;
+}
+
+@keyframes dropdownExpand {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    max-height: 20em; /* Adjust the height according to your content */
+  }
 }
 
 
@@ -532,8 +545,10 @@ section.about{
   display: flex;
   justify-content: center;
   align-items: center;
-/*   margin: 4em;
-  margin-top: 8em; */
+  margin: 4em;
+  margin-top: 8em;
+  margin-bottom: 8em;
+  /*margin-top: 8em; */
   /* margin-bottom: 10em; */
 }
 
@@ -552,7 +567,7 @@ div.about-container{
 }
 
 .about-container img{
-  max-width: 40%;
+  max-width: 350px;
   border-radius: 8px;
 }
 
@@ -579,6 +594,9 @@ section.subjects{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+/*   margin: 4em; */
+  margin-top: 8em;
+  margin-bottom: 8em;
 /*   margin-left: 2em;
   margin-right: 2em; */
   /* margin-bottom: 10em; */
@@ -660,6 +678,9 @@ section.courses{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 4em;
+  margin-top: 8em;
+  margin-bottom: 8em;
 }
 
 section.courses i{
@@ -770,15 +791,13 @@ div.courses-card-text-container{
   justify-content: space-between;
   align-items: center;
 }
-
-
 /* end COURSES SECTION*/
 
 
 
 /*  NEED ANY COURSES SECTION*/
 section.need-any-courses-container{
-  margin-top: 0;
+  /* margin-top: 0; */
 /*   margin-bottom: 7em; */
   background-image: url(/assets/img/registration-fix-bg.jpeg); /* url prone to error due to directory */
   background-position: center;
@@ -787,6 +806,8 @@ section.need-any-courses-container{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 8em;
+  margin-bottom: 8em;
 }
 
 .need-any-courses{
@@ -908,6 +929,9 @@ section.teachers{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 4em;
+  margin-top: 8em;
+  margin-bottom: 8em;
 }
 
 .teachers-flex-container{
@@ -1014,6 +1038,16 @@ section.teachers{
 
 
 /* TESTIMONIALS SECTION */
+section.testimonials{
+  margin: 4em;
+  margin-top: 8em;
+  margin-bottom: 8em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .slider-container {
   width: 100%;
   overflow: hidden;
@@ -1051,9 +1085,10 @@ section.teachers{
   justify-content: center;
   align-items: center;
   gap: 1em;
-  font-size: 1.1em;
+  font-size: 1em;
   line-height: 1.4em;
   font-weight: 600;
+  color: var(--color-light-grey);
 }
 
 .slide-card .slide-card-top i{
