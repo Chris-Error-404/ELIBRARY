@@ -206,6 +206,7 @@
 /*     padding-left: 1em;
     padding-right: 1em;
     padding: 1em; */
+    padding: 0;
     gap: 4em; /* gap between text anf form */
   }
   
