@@ -198,6 +198,8 @@
     margin-top: 2em;
     margin-bottom: 6em;
     padding: 0em;
+    padding-top: 4em;
+    padding-bottom: 4em;
   }
   
   .need-any-courses{
@@ -217,6 +219,7 @@
 
   .need-any-courses .need-any-courses-form-container{
     width: 100%;
+    padding: 1em;
   }
   
   .need-any-courses form{
