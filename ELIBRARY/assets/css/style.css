@@ -1046,6 +1046,7 @@ section.testimonials{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  display: none;
 }
 
 .slider-container {
