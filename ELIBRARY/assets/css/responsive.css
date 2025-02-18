@@ -197,14 +197,15 @@
   section.need-any-courses-container{
     margin-top: 2em;
     margin-bottom: 6em;
+    padding: 1em;
   }
   
   .need-any-courses{
     display: flex;
     flex-direction: column;
-    padding-left: 1em;
+/*     padding-left: 1em;
     padding-right: 1em;
-    padding: 1em;
+    padding: 1em; */
     gap: 4em; /* gap between text anf form */
   }
   
