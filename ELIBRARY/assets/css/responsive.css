@@ -212,6 +212,7 @@
   
   .need-any-courses .need-any-courses-text-container{
     width: 100%;
+    padding: 1em;
   }
 
   .need-any-courses .need-any-courses-form-container{
