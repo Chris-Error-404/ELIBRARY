@@ -142,12 +142,16 @@
   
 .subject-card {
   position: relative;
-  width: 350px; /* Adjust as needed */
+  min-width: 340px; /* Adjust as needed */
   height: 200px; /* Adjust as needed */
 }
 
+.subject-card h4{
+  font-size: 1.5em;
 }
 /* end SUBJECTS SECTION */
+
+
 
 /* COURSES SECTION */
 @media (max-width: 1024px){
@@ -245,6 +249,10 @@
     padding-right: 1em;
   }
 
+  .teachers-card img {
+    height:  80%;
+  }
+
 }
 /* end TEACHERS SECTION */
 
@@ -276,6 +284,11 @@
     width: 100%;
   }
 
+  .slide-card .slide-card-top{
+    font-size: 0.8em;
+  }
+  
+
 /*   section.testimonials .testimonial-card i {
     font-size: 2em;
   } */
@@ -283,6 +296,32 @@
 
 /* end TESTIMONIAL SECTION */
 
+
+/*  BLOG SECTION */
+@media (max-width: 1024px){
+  section.blog{
+    margin: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 10em;
+  }
+
+  .blog-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  
+  
+.blog-card {
+  width: 100%;
+}
+
+/* .blog-link{
+  width: 90%;
+} */
+}
+/* end BLOG SECTION */
 
 /* FOOTER*/
 @media  (max-width: 1024px) {
