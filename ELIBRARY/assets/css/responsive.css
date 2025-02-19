@@ -142,7 +142,7 @@
   
 .subject-card {
   position: relative;
-  min-width: 340px; /* Adjust as needed */
+  min-width: 300px; /* Adjust as needed */
   height: 200px; /* Adjust as needed */
 }
 
