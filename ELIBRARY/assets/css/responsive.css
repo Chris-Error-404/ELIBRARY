@@ -293,8 +293,12 @@
     width: 100%;
   }
 
+  .slide {
+    padding: 0em;
+  }
+
   .slide-card .slide-card-top{
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
   
 
