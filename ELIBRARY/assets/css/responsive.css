@@ -223,7 +223,7 @@
   }
   
   .need-any-courses form{
-    width: 100%;
+    width: 90%;
     background-color: var(--color-orange);
     border-radius: 8px;
   }
