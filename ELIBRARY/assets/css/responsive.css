@@ -297,8 +297,17 @@
     padding: 0em;
   }
 
+  .slide-card .slide-card-top i{
+    font-size: 3em;
+    color: var(--color-orange);
+  }
+
   .slide-card .slide-card-top{
     font-size: 0.8em;
+  }
+
+  .slider-container .buttons {
+    position: static;
   }
   
 
