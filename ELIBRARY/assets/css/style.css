@@ -1149,7 +1149,8 @@ section.testimonials{
   align-items: center;
   justify-content: center;
   vertical-align: middle;
-  transition: 0.3s ease;
+  transition: all 0.3s ease;
+
 }
 
 .slider-container button:hover {
