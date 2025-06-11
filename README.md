@@ -2,7 +2,7 @@
 
 ## 🧭 Overview
 
-A sleek, user-friendly **frontend-only** prototype for an online course marketplace. eLibrary Rouge showcases course listings, detailed descriptions, and a mock “Add to Cart” flow—focusing purely on UI/UX without any backend or data persistence.
+A sleek, user-friendly **frontend-only** prototype for an online course marketplace. eLibrary Rouge showcases course listings, detailed descriptions, It focuses purely on UI/UX without any backend or data persistence.
 
 ---
 
